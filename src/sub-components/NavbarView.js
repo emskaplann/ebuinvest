@@ -25,6 +25,9 @@ export default class NavbarView extends React.Component {
                 <Nav.Link><Link to="/how-to-use" style={{color: 'white', textDecoration: 'none'}}>How To Use?</Link></Nav.Link>
               </Row>
             </Nav>
+            <Nav>
+              <Nav.Link><Link to="/become-an-affiliate" style={{color: 'white', textDecoration: 'none'}}>Become an Affiliate</Link></Nav.Link>
+            </Nav>
           </Navbar.Collapse>
         </Navbar>
         <Navbar style={{marginTop: 200}} fixed="bottom" bg="primary" variant="dark">
