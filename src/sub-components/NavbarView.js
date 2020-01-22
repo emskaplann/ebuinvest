@@ -19,15 +19,15 @@ export default class NavbarView extends React.Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Row style={{justifyContent: "space-between", paddingLeft: 15, paddingRight: 15}}>
-                <Nav.Link href="/pricing">Pricing</Nav.Link>
-                <Nav.Link href="/about-us">About Us</Nav.Link>
-                <Nav.Link href="/our-work">Our Work</Nav.Link>
-                <Nav.Link href="/how-to-use">How To Use?</Nav.Link>
+                <Nav.Link><Link to="/pricing" style={{color: 'white', textDecoration: 'none'}}>Pricing</Link></Nav.Link>
+                <Nav.Link><Link to="/about-us" style={{color: 'white', textDecoration: 'none'}}>About Us</Link></Nav.Link>
+                <Nav.Link><Link to="/our-work" style={{color: 'white', textDecoration: 'none'}}>Our Work</Link></Nav.Link>
+                <Nav.Link><Link to="/how-to-use" style={{color: 'white', textDecoration: 'none'}}>How To Use?</Link></Nav.Link>
               </Row>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <Navbar fixed="bottom" bg="primary" variant="dark">
+        <Navbar style={{marginTop: 200}} fixed="bottom" bg="primary" variant="dark">
           <Navbar.Brand style={{fontSize: '70%'}} className="mx-auto">
             NYC Based | EBU INVEST © 2020 | All rights reserved.
           </Navbar.Brand>

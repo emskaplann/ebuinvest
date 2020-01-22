@@ -16,8 +16,8 @@ class PricingTable extends React.Component {
             <div className="col-lg-4">
               <div className="card mb-5 mb-lg-0">
                 <div className="card-body">
-                  <h5 className="card-title text-muted text-uppercase text-center">Free</h5>
-                  <h6 className="card-price text-center">$0<span className="period">/month</span></h6>
+                  <h5 className="card-title text-muted text-uppercase text-center">1 Month Upfront</h5>
+                  <h6 className="card-price text-center">$54.99<span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Single User</li>
@@ -29,16 +29,16 @@ class PricingTable extends React.Component {
                     <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Free Subdomain</li>
                     <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Monthly Status Reports</li>
                   </ul>
-                  <a href="#" className="btn btn-block btn-primary text-uppercase">Button</a>
+                  <a href="#" className="btn btn-block btn-primary text-uppercase">Try Free</a>
                 </div>
               </div>
             </div>
 
             <div className="col-lg-4">
               <div className="card mb-5 mb-lg-0">
-                <div className="card-body">
-                  <h5 className="card-title text-muted text-uppercase text-center">Plus</h5>
-                  <h6 className="card-price text-center">$9<span className="period">/month</span></h6>
+                <div className="card-body" style={{borderTop: "5px solid #dc3545", borderRadius: '1rem'}}>
+                  <h5 className="card-title text-muted text-uppercase text-center">3 Month Upfront</h5>
+                  <h6 className="card-price text-center">$49.99<span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
                     <li><span className="fa-li"><i className="fas fa-check"></i></span><strong>5 Users</strong></li>
@@ -50,7 +50,7 @@ class PricingTable extends React.Component {
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Free Subdomain</li>
                     <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Monthly Status Reports</li>
                   </ul>
-                  <a href="#" className="btn btn-block btn-primary text-uppercase">Button</a>
+                  <a href="#" className="btn btn-block btn-primary text-uppercase">Try Free</a>
                 </div>
               </div>
             </div>
@@ -58,8 +58,8 @@ class PricingTable extends React.Component {
             <div className="col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title text-muted text-uppercase text-center">Pro</h5>
-                  <h6 className="card-price text-center">$49<span className="period">/month</span></h6>
+                  <h5 className="card-title text-muted text-uppercase text-center">1 Year Upfront</h5>
+                  <h6 className="card-price text-center">$39.99<span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
                     <li><span className="fa-li"><i className="fas fa-check"></i></span><strong>Unlimited Users</strong></li>
@@ -71,7 +71,7 @@ class PricingTable extends React.Component {
                     <li><span className="fa-li"><i className="fas fa-check"></i></span><strong>Unlimited</strong> Free Subdomains</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Monthly Status Reports</li>
                   </ul>
-                  <a href="#" className="btn btn-block btn-primary text-uppercase">Button</a>
+                  <a href="#" className="btn btn-block btn-primary text-uppercase">Try Free</a>
                 </div>
               </div>
             </div>

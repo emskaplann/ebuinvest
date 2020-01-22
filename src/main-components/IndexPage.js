@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { Container } from 'react-bootstrap'
+import { Container, Row } from 'react-bootstrap';
+import { Divider } from 'semantic-ui-react';
 import PricingTable from '../sub-components/PricingTable.js';
 class IndexPage extends React.Component {
   constructor(){
@@ -12,9 +13,12 @@ class IndexPage extends React.Component {
 
   render(){
     return (
-      <Container>
-        <PricingTable />
-      </Container>
+        <>
+          <PricingTable />
+          <Container>
+            <Divider style={{color: 'white'}} horizontal>What is EBU Indicator?</Divider>
+          </Container>
+        </>
     );
   }
 }
