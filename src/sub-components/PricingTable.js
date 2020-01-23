@@ -22,13 +22,14 @@ class PricingTable extends React.Component {
                   <h6 className="card-price text-center">$54.99<span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>10 Days Free Trial</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Wolfe Wave Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Butterfly Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Gartley Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Head & Shoulders Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Telegram Group with All Users</li>
-                    <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>1/1 Support</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>1/1 Support</li>
                   </ul>
                   <a href="#" className="btn btn-block btn-primary text-uppercase">Try Free</a>
                 </div>
@@ -42,6 +43,7 @@ class PricingTable extends React.Component {
                   <h6 className="card-price text-center">$49.99<span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>10 Days Free Trial</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Wolfe Wave Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Butterfly Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Gartley Indicator</li>
@@ -62,6 +64,7 @@ class PricingTable extends React.Component {
                   <h6 className="card-price text-center">$39.99<span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>10 Days Free Trial</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Wolfe Wave Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Butterfly Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Gartley Indicator</li>

@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 
 export default function CustomCarousel() {
   return(
-    <Carousel style={{borderRadius: '10px'}}>
+    <Carousel>
       <Carousel.Item>
         <img
           className="d-block w-100"
