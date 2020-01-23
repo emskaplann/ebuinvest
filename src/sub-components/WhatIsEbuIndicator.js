@@ -17,7 +17,7 @@ export default function WhatIsEbuIndicator(){
       ...that will <b>help you on deciding</b> about buying or selling <b>stocks</b>, <b>positions, commodities etc.</b>
       <div style={{marginTop: 5}}>...that you can expect <b>0% - 300% profit rates.</b></div>
       <div style={{marginTop: 5}}>...that you can put on work at any <b>Financial Chart.</b></div>
-      <div style={{marginTop: 5}}>...that works <b>only</b> on <b>TradingView Platform.</b></div>
+      <div style={{marginTop: 5}}>...that works <b>only</b> on <b><a href="https://www.tradingview.com/" target="_blank">TradingView Platform.</a></b> Which means you can use <a href="https://www.tradingview.com/" target="_blank">TradingView</a> app with our script <b>on every device.</b></div>
       <div style={{marginTop: 5}}>...that gives you a chance to be part of <b>new community.</b></div>
       <br /><br />
       <h5><b>EBU Indicator is <u>not a script...</u></b></h5>
