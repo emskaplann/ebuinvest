@@ -24,6 +24,7 @@ class PricingTable extends React.Component {
                   <ul className="fa-ul">
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>10 Days Free Trial</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Wolfe Wave Indicator</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Notifications on New Patterns</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Butterfly Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Gartley Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle</li>
@@ -45,6 +46,7 @@ class PricingTable extends React.Component {
                   <ul className="fa-ul">
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>10 Days Free Trial</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Wolfe Wave Indicator</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Notifications on New Patterns<b>*</b></li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Butterfly Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Gartley Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle</li>
@@ -66,6 +68,7 @@ class PricingTable extends React.Component {
                   <ul className="fa-ul">
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>10 Days Free Trial</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Wolfe Wave Indicator</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Notifications on New Patterns</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Butterfly Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Gartley Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle</li>
@@ -76,6 +79,11 @@ class PricingTable extends React.Component {
                   <a href="#" className="btn btn-block btn-primary text-uppercase">Try Free</a>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="card" style={{marginTop: 20}}>
+            <div className="card-body">
+              <b>Notifications: </b><span>However, to get the notifications you need to be a Premium Member on TradingView. It doesn't come with script.</span>
             </div>
           </div>
         </div>
