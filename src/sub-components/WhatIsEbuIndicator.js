@@ -13,7 +13,7 @@ export default function WhatIsEbuIndicator(){
         The techniques(patterns) we are using are not a secret. Only secret is finding those <b>automatically.</b>
       <br /><br />
       <h5><b>EBU Indicator is <u>a script...</u></b></h5>
-      ...that will <b>help you on deciding</b> for buying or selling <b>stocks</b>, <b>positions, commodities etc.</b>
+      ...that will <b>help you on deciding</b> on buying or selling <b>stocks</b>, <b>positions, commodities etc.</b>
       <div style={{marginTop: 5}}>...that you can expect <b>0% - 300% profit rates.</b></div>
       <div style={{marginTop: 5}}>...that you can put on work at any <b>Financial Chart.</b></div>
       <div style={{marginTop: 5}}>...that works on <b>TradingView Platform.</b></div>

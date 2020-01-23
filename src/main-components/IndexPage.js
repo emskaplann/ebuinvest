@@ -5,6 +5,7 @@ import { Divider } from 'semantic-ui-react';
 import PricingTable from '../sub-components/PricingTable.js';
 import CustomCarousel from '../sub-components/CustomCarousel.js';
 import WhatIsEbuIndicator from '../sub-components/WhatIsEbuIndicator.js';
+import PaymentFlow from '../sub-components/PaymentFlow.js';
 
 class IndexPage extends React.Component {
   constructor(){
@@ -26,7 +27,7 @@ class IndexPage extends React.Component {
           </Container>
           <PricingTable />
           <Container style={{marginBottom: 100}}>
-            <Divider style={{color: 'white'}} horizontal>payment flow</Divider>
+            <PaymentFlow />
           </Container>
         </>
     );
