@@ -30,7 +30,63 @@
     <title>EBU INVEST</title>
   </head>
   <body>
+    <div className="tradingview-widget-container">
+      <div className="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {
+      "symbols": [
+        {
+          "proName": "OANDA:SPX500USD",
+          "title": "SP 500"
+        },
+        {
+          "proName": "OANDA:NAS100USD",
+          "title": "Nasdaq 100"
+        },
+        {
+          "proName": "FX_IDC:EURUSD",
+          "title": "EUR/USD"
+        },
+        {
+          "proName": "BITSTAMP:BTCUSD",
+          "title": "BTC/USD"
+        },
+        {
+          "proName": "BITSTAMP:ETHUSD",
+          "title": "ETH/USD"
+        },
+        {
+          "description": "DOW30",
+          "proName": "CURRENCYCOM:US30"
+        },
+        {
+          "description": "DAX",
+          "proName": "XETR:DAX"
+        },
+        {
+          "description": "BIST100",
+          "proName": "BIST:XU100"
+        },
+        {
+          "description": "GBP/USD",
+          "proName": "FX_IDC:GBPUSD"
+        },
+        {
+          "description": "USD/TRY",
+          "proName": "FX:USDTRY"
+        }
+      ],
+      "colorTheme": "dark",
+      "isTransparent": false,
+      "displayMode": "adaptive",
+      "locale": "en"
+    }
+      </script>
+    </div>
     <style>
+        #trade-like-a-pro {
+          font-weight: 300 !important;
+        }
         .fa-check {
           color: green !important;
         }
