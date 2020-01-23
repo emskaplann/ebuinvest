@@ -1,4 +1,5 @@
 import React from 'react';
+import { Divider } from 'semantic-ui-react';
 
 class PricingTable extends React.Component {
   constructor(){
@@ -12,6 +13,7 @@ class PricingTable extends React.Component {
     return(
       <section className="pricing py-5">
         <div className="container">
+          <Divider style={{color: 'white'}} horizontal>EBU Indicator Pricing</Divider>
           <div className="row">
             <div className="col-lg-4">
               <div className="card mb-5 mb-lg-0">
@@ -20,14 +22,13 @@ class PricingTable extends React.Component {
                   <h6 className="card-price text-center">$54.99<span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Single User</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>5GB Storage</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Unlimited Public Projects</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Community Access</li>
-                    <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Unlimited Private Projects</li>
-                    <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Dedicated Phone Support</li>
-                    <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Free Subdomain</li>
-                    <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Monthly Status Reports</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Wolfe Wave Indicator</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Butterfly Indicator</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Gartley Indicator</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Head & Shoulders Indicator</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Telegram Group with All Users</li>
+                    <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>1/1 Support</li>
                   </ul>
                   <a href="#" className="btn btn-block btn-primary text-uppercase">Try Free</a>
                 </div>
@@ -36,19 +37,18 @@ class PricingTable extends React.Component {
 
             <div className="col-lg-4">
               <div className="card mb-5 mb-lg-0">
-                <div className="card-body" style={{borderTop: "5px solid #dc3545", borderRadius: '1rem'}}>
+                <div className="card-body" style={{borderTop: "5px solid #33AEFF", borderBottom: "5px solid #33AEFF", borderRadius: '1rem'}}>
                   <h5 className="card-title text-muted text-uppercase text-center">3 Month Upfront</h5>
                   <h6 className="card-price text-center">$49.99<span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span><strong>5 Users</strong></li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>50GB Storage</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Unlimited Public Projects</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Community Access</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Unlimited Private Projects</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Dedicated Phone Support</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Free Subdomain</li>
-                    <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Monthly Status Reports</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Wolfe Wave Indicator</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Butterfly Indicator</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Gartley Indicator</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Head & Shoulders Indicator</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Telegram Group with All Users</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>1/1 Support</li>
                   </ul>
                   <a href="#" className="btn btn-block btn-primary text-uppercase">Try Free</a>
                 </div>
@@ -62,14 +62,13 @@ class PricingTable extends React.Component {
                   <h6 className="card-price text-center">$39.99<span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span><strong>Unlimited Users</strong></li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>150GB Storage</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Unlimited Public Projects</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Community Access</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Unlimited Private Projects</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Dedicated Phone Support</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span><strong>Unlimited</strong> Free Subdomains</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Monthly Status Reports</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Wolfe Wave Indicator</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Butterfly Indicator</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Gartley Indicator</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Head & Shoulders Indicator</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Telegram Group with All Users</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>1/1 Support</li>
                   </ul>
                   <a href="#" className="btn btn-block btn-primary text-uppercase">Try Free</a>
                 </div>

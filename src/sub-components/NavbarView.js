@@ -13,24 +13,25 @@ export default class NavbarView extends React.Component {
   render(){
     return(
       <>
-        <Navbar bg="primary" variant="dark" expand="lg">
-          <Navbar.Brand style={{fontFamily: 'Rubik'}}><Link to="/" style={{color: 'white', textDecoration: 'none'}}>EBU INVEST</Link></Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar bg="white" variant="primary" expand="lg">
+          <Navbar.Brand style={{fontFamily: 'Rubik'}}><Link to="/" style={{textDecoration: 'none'}}>EBU INVEST</Link></Navbar.Brand>
+          <Navbar.Brand className="text-muted">Trade Like a Pro.</Navbar.Brand>
+        <Navbar.Toggle style={{color: "primary"}} aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Row style={{justifyContent: "space-between", paddingLeft: 15, paddingRight: 15}}>
-                <Nav.Link><Link to="/pricing" style={{color: 'white', textDecoration: 'none'}}>Pricing</Link></Nav.Link>
-                <Nav.Link><Link to="/about-us" style={{color: 'white', textDecoration: 'none'}}>About Us</Link></Nav.Link>
-                <Nav.Link><Link to="/our-work" style={{color: 'white', textDecoration: 'none'}}>Our Work</Link></Nav.Link>
-                <Nav.Link><Link to="/how-to-use" style={{color: 'white', textDecoration: 'none'}}>How To Use?</Link></Nav.Link>
+                <Nav.Link><Link to="/pricing" style={{textDecoration: 'none'}}>Pricing</Link></Nav.Link>
+                <Nav.Link><Link to="/about-us" style={{textDecoration: 'none'}}>About Us</Link></Nav.Link>
+                <Nav.Link><Link to="/how-to" style={{textDecoration: 'none'}}>How To?</Link></Nav.Link>
+                <Nav.Link><Link to="/reach-us" style={{textDecoration: 'none'}}>Contact Us</Link></Nav.Link>
               </Row>
             </Nav>
             <Nav>
-              <Nav.Link><Link to="/become-an-affiliate" style={{color: 'white', textDecoration: 'none'}}>Become an Affiliate</Link></Nav.Link>
+              <Nav.Link><Link to="/become-an-affiliate" style={{textDecoration: 'none'}}>Become an Affiliate</Link></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <Navbar style={{marginTop: 200}} fixed="bottom" bg="primary" variant="dark">
+        <Navbar style={{marginTop: 200}} fixed="bottom" bg="white" variant="primary">
           <Navbar.Brand style={{fontSize: '70%'}} className="mx-auto">
             NYC Based | EBU INVEST © 2020 | All rights reserved.
           </Navbar.Brand>
