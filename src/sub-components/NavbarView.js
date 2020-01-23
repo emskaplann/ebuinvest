@@ -14,7 +14,11 @@ export default class NavbarView extends React.Component {
     return(
       <>
         <Navbar bg="white" variant="primary" expand="lg">
-          <Navbar.Brand style={{fontFamily: 'Rubik'}}><Link to="/" style={{textDecoration: 'none'}}>EBU INVEST<span className="text-muted"> | Trade Like a Pro.</span></Link></Navbar.Brand>
+          <Navbar.Brand style={{fontFamily: 'Rubik'}}>
+            <Link to="/" style={{textDecoration: 'none'}}>
+              EBU INVEST<span className="text-muted"> | Trade Like a Pro.</span>
+            </Link>
+          </Navbar.Brand>
         <Navbar.Toggle style={{color: "primary"}} aria-controls="basic-navbar-nav" />
           <Navbar.Collapse variant="primary" id="basic-navbar-nav">
             <Nav className="mr-auto">
