@@ -32,7 +32,11 @@ class PricingTable extends React.Component {
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Telegram Group with All Users</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>1/1 Support</li>
                   </ul>
-                  <a href="#" className="btn btn-block btn-primary text-uppercase">Try Free</a>
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="L297P6HH7JG3J" />
+                    <button type="input" className="btn btn-block btn-primary text-uppercase" name="submit">Try Free</button>
+                  </form>
                 </div>
               </div>
             </div>
@@ -54,7 +58,11 @@ class PricingTable extends React.Component {
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Telegram Group with All Users</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>1/1 Support</li>
                   </ul>
-                  <a href="#" className="btn btn-block btn-primary text-uppercase">Try Free</a>
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="PKZ7EZYAF9722" />
+                    <button type="input" className="btn btn-block btn-primary text-uppercase" name="submit">Try Free</button>
+                  </form>
                 </div>
               </div>
             </div>
@@ -76,7 +84,11 @@ class PricingTable extends React.Component {
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Telegram Group with All Users</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>1/1 Support</li>
                   </ul>
-                  <a href="#" className="btn btn-block btn-primary text-uppercase">Try Free</a>
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="AEF5UPCKKAFHJ" />
+                    <button type="input" className="btn btn-block btn-primary text-uppercase" name="submit">Try Free</button>
+                  </form>
                 </div>
               </div>
             </div>
