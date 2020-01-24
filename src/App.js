@@ -9,6 +9,7 @@ import {VerticleButton as ScrollUpButton} from "react-scroll-up-button";
 import ContactForm from './sub-components/ContactForm.js';
 import AboutUs from './main-components/AboutUs.js';
 import BecomeAnAffiliate from './main-components/BecomeAnAffiliate.js';
+// import CookieBanner from 'react-cookie-banner';
 import $ from 'jquery';
 
 import './App.css';

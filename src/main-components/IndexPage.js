@@ -26,7 +26,7 @@ class IndexPage extends React.Component {
             <CustomCarousel />
           </Container>
           <PricingTable />
-          <Container style={{marginBottom: 100}}>
+          <Container style={{marginBottom: 150}}>
             <PaymentFlow />
           </Container>
         </>

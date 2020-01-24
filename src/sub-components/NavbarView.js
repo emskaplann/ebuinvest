@@ -13,7 +13,7 @@ export default class NavbarView extends React.Component {
   render(){
     return(
       <>
-        <Navbar bg="white" variant="primary" expand="lg">
+        <Navbar bg="white" variant="light" expand="lg">
           <Navbar.Brand style={{fontFamily: 'Rubik'}}>
             <Link to="/" style={{textDecoration: 'none'}}>
               EBU INVEST<span className="text-muted"> | Trade Like a Pro.</span>
