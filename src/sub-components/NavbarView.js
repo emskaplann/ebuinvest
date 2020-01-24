@@ -23,7 +23,7 @@ export default class NavbarView extends React.Component {
           <Navbar.Collapse variant="primary" id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Row style={{justifyContent: "space-between", paddingLeft: 15, paddingRight: 15}}>
-                <Nav.Link><Link to="/pricing" style={{textDecoration: 'none'}}>Pricing</Link></Nav.Link>
+                <Nav.Link><a id="pricing-button" href="#pricing" style={{textDecoration: 'none'}}>Pricing</a></Nav.Link>
                 <Nav.Link><Link to="/about-us" style={{textDecoration: 'none'}}>About Us</Link></Nav.Link>
                 <Nav.Link><Link to="/how-to" style={{textDecoration: 'none'}}>How to?</Link></Nav.Link>
                 <Nav.Link><Link to="/reach-us" style={{textDecoration: 'none'}}>Contact Us</Link></Nav.Link>

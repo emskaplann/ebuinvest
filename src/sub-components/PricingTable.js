@@ -11,7 +11,7 @@ class PricingTable extends React.Component {
 
   render(){
     return(
-      <section className="pricing py-5">
+      <section className="pricing py-5" id="pricing">
         <div className="container">
           <Divider style={{color: 'white'}} horizontal>EBU Indicator Pricing</Divider>
           <div className="row">
@@ -23,11 +23,11 @@ class PricingTable extends React.Component {
                   <hr />
                   <ul className="fa-ul">
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>10 Days Free Trial</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Notifications<b>*</b></li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Wolfe Wave Indicator</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Notifications for Trade<b>*</b></li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Butterfly Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Gartley Indicator</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Head & Shoulders Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Telegram Group with All Users</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>1/1 Support</li>
@@ -49,11 +49,11 @@ class PricingTable extends React.Component {
                   <hr />
                   <ul className="fa-ul">
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>10 Days Free Trial</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Notifications<b>*</b></li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Wolfe Wave Indicator</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Notifications for Trade<b>*</b></li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Butterfly Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Gartley Indicator</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Head & Shoulders Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Telegram Group with All Users</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>1/1 Support</li>
@@ -75,11 +75,11 @@ class PricingTable extends React.Component {
                   <hr />
                   <ul className="fa-ul">
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>10 Days Free Trial</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Notifications<b>*</b></li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Wolfe Wave Indicator</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Notifications for Trade<b>*</b></li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Butterfly Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Gartley Indicator</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Head & Shoulders Indicator</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Telegram Group with All Users</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>1/1 Support</li>

@@ -9,23 +9,34 @@ import {VerticleButton as ScrollUpButton} from "react-scroll-up-button";
 import ContactForm from './sub-components/ContactForm.js';
 import AboutUs from './main-components/AboutUs.js';
 import BecomeAnAffiliate from './main-components/BecomeAnAffiliate.js';
+import $ from 'jquery';
 
 import './App.css';
 
-function App() {
-  return (
-    <>
-    <NavbarView />
-     <Switch>
-       <Route exact path='/' component={IndexPage} key='index' />
-       <Route exact path='/about-us' component={AboutUs} key='about-us' />
-       <Route exact path='/reach-us' component={ContactForm} key='contact-us' />
-       <Route exact path='/become-an-affiliate' component={BecomeAnAffiliate} key='become-an-affiliate' />
-       <Route path='/payment-successful/:subId' component={PaymentSuccessfulPage} key='index' />
-    </Switch>
-     <ScrollUpButton style={{marginBottom: 50}}/>
-     </>
-  );
+class App extends React.Component {
+  componentDidMount(){
+    $('#pricing-button').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $(this).attr('href') ).offset().top
+        }, 500);
+        return false;
+    });
+  }
+  render(){
+    return (
+      <>
+      <NavbarView />
+       <Switch>
+         <Route exact path='/' component={IndexPage} key='index' />
+         <Route exact path='/about-us' component={AboutUs} key='about-us' />
+         <Route exact path='/reach-us' component={ContactForm} key='contact-us' />
+         <Route exact path='/become-an-affiliate' component={BecomeAnAffiliate} key='become-an-affiliate' />
+         <Route path='/payment-successful/:subId' component={PaymentSuccessfulPage} key='index' />
+      </Switch>
+       <ScrollUpButton style={{marginBottom: 50}}/>
+       </>
+    );
+  }
 }
 
 export default App;
