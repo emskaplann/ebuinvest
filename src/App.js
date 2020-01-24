@@ -8,6 +8,7 @@ import { connect } from 'react-redux';
 import {VerticleButton as ScrollUpButton} from "react-scroll-up-button";
 import ContactForm from './sub-components/ContactForm.js';
 import AboutUs from './main-components/AboutUs.js';
+import BecomeAnAffiliate from './main-components/BecomeAnAffiliate.js';
 
 import './App.css';
 
@@ -17,10 +18,11 @@ function App() {
     <NavbarView />
      <Switch>
        <Route exact path='/' component={IndexPage} key='index' />
-         <Route exact path='/about-us' component={AboutUs} key='about-us' />
-        <Route exact path='/reach-us' component={ContactForm} key='contact-us' />
+       <Route exact path='/about-us' component={AboutUs} key='about-us' />
+       <Route exact path='/reach-us' component={ContactForm} key='contact-us' />
+       <Route exact path='/become-an-affiliate' component={BecomeAnAffiliate} key='become-an-affiliate' />
        <Route path='/payment-successful/:subId' component={PaymentSuccessfulPage} key='index' />
-     </Switch>
+    </Switch>
      <ScrollUpButton style={{marginBottom: 50}}/>
      </>
   );

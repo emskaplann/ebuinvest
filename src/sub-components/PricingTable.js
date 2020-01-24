@@ -18,7 +18,7 @@ class PricingTable extends React.Component {
             <div className="col-lg-4">
               <div className="card mb-5 mb-lg-0">
                 <div className="card-body">
-                  <h5 className="card-title text-muted text-uppercase text-center">1 Month Upfront</h5>
+                  <h5 className="card-title text-muted text-uppercase text-center">Pay each month</h5>
                   <h6 className="card-price text-center">$54.99<span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
@@ -32,7 +32,7 @@ class PricingTable extends React.Component {
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Telegram Group with All Users</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>1/1 Support</li>
                   </ul>
-                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
                     <input type="hidden" name="cmd" value="_s-xclick" />
                     <input type="hidden" name="hosted_button_id" value="L297P6HH7JG3J" />
                     <button type="input" className="btn btn-block btn-primary text-uppercase" name="submit">Try Free</button>
@@ -44,7 +44,7 @@ class PricingTable extends React.Component {
             <div className="col-lg-4">
               <div className="card mb-5 mb-lg-0">
                 <div className="card-body" style={{borderTop: "5px solid #33AEFF", borderBottom: "5px solid #33AEFF", borderRadius: '1rem'}}>
-                  <h5 className="card-title text-muted text-uppercase text-center">3 Month Upfront</h5>
+                  <h5 className="card-title text-muted text-uppercase text-center">PAY EACH 3 MONTH</h5>
                   <h6 className="card-price text-center">$49.99<span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
@@ -58,7 +58,7 @@ class PricingTable extends React.Component {
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Telegram Group with All Users</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>1/1 Support</li>
                   </ul>
-                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
                     <input type="hidden" name="cmd" value="_s-xclick" />
                     <input type="hidden" name="hosted_button_id" value="PKZ7EZYAF9722" />
                     <button type="input" className="btn btn-block btn-primary text-uppercase" name="submit">Try Free</button>
@@ -70,7 +70,7 @@ class PricingTable extends React.Component {
             <div className="col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title text-muted text-uppercase text-center">1 Year Upfront</h5>
+                  <h5 className="card-title text-muted text-uppercase text-center">PAY EACH YEAR</h5>
                   <h6 className="card-price text-center">$39.99<span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
@@ -84,7 +84,7 @@ class PricingTable extends React.Component {
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Telegram Group with All Users</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>1/1 Support</li>
                   </ul>
-                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
                     <input type="hidden" name="cmd" value="_s-xclick" />
                     <input type="hidden" name="hosted_button_id" value="AEF5UPCKKAFHJ" />
                     <button type="input" className="btn btn-block btn-primary text-uppercase" name="submit">Try Free</button>
