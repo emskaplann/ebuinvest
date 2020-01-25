@@ -13,19 +13,22 @@ export default function WhatIsEbuIndicator(){
       <br />
         The techniques(patterns) we are using are not a secret. Only secret is finding those <b>automatically.</b> Before this script we were looking and finding patterns manually and we can tell it's not a thing you want to do constantly. This is basically the main reason that why we wrote the script.
       <br /><br />
-      <h5><b>EBU Indicator is <u>a script...</u></b></h5>
-      ...that will <b>help you on deciding</b> about buying or selling <b>stocks</b>, <b>positions, commodities etc.</b>
-      <div style={{marginTop: 5}}>...that you can expect <b>0% - 300% profit rates.</b></div>
-      <div style={{marginTop: 5}}>...that you can put on work at any <b>Financial Chart.</b></div>
-      <div style={{marginTop: 5}}>...that works <b>only on</b> <b><a href="https://www.tradingview.com/" target="_blank">TradingView Platform.</a></b> Which means you can use <a href="https://www.tradingview.com/" target="_blank">TradingView</a> App with our script <b>on every device.</b></div>
-      <div style={{marginTop: 5}}>...that gives you a chance to be part of <b>new community.</b></div>
-      <br /><br />
-      <h5><b>EBU Indicator is <u>not a script...</u></b></h5>
-        ...once you put on chart that will make money for you! Please do not think as "this is a script <b>that makes money by itself.</b>"<br />
-      <div style={{marginTop: 5}}>...that makes billions <b>if you don't have any.</b></div>
-      <div style={{marginTop: 5}}>...that works on <b>MetaTrader Platform.</b></div>
       </div>
     </div>
     </>
   )
 }
+
+
+
+// <h5><b>EBU Indicator is <u>a script...</u></b></h5>
+// ...that will <b>help you on deciding</b> about buying or selling <b>stocks</b>, <b>positions, commodities etc.</b>
+// <div style={{marginTop: 5}}>...that you can expect <b>0% - 300% profit rates.</b></div>
+// <div style={{marginTop: 5}}>...that you can put on work at any <b>Financial Chart.</b></div>
+// <div style={{marginTop: 5}}>...that works <b>only on</b> <b><a href="https://www.tradingview.com/" target="_blank">TradingView Platform.</a></b> Which means you can use <a href="https://www.tradingview.com/" target="_blank">TradingView</a> App with our script <b>on every device.</b></div>
+// <div style={{marginTop: 5}}>...that gives you a chance to be part of <b>new community.</b></div>
+// <br /><br />
+// <h5><b>EBU Indicator is <u>not a script...</u></b></h5>
+//   ...once you put on chart that will make money for you! Please do not think as "this is a script <b>that makes money by itself.</b>"<br />
+// <div style={{marginTop: 5}}>...that makes billions <b>if you don't have any.</b></div>
+// <div style={{marginTop: 5}}>...that works on <b>MetaTrader Platform.</b></div>

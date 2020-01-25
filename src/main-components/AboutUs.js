@@ -29,6 +29,7 @@ export default class AboutUs extends React.Component {
                 <br /><br />
                 <SocialIcon url="https://www.linkedin.com/in/emirhan-kaplan/" />
                 <SocialIcon style={{marginLeft: 5}} url="https://twitter.com/emskaplann" />
+                <SocialIcon style={{marginLeft: 5}} url="https://github.com/emskaplann" />
                 <br /><br />
               </Col>
               <Col xs={2} sm={2} md={2} lg={2}>

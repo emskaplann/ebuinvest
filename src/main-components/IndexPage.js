@@ -29,6 +29,8 @@ class IndexPage extends React.Component {
           <Container style={{marginBottom: 150}}>
             <PaymentFlow />
           </Container>
+          <br />
+          <br />
         </>
     );
   }
