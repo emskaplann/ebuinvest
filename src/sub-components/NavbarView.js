@@ -16,7 +16,7 @@ export default class NavbarView extends React.Component {
         <Navbar bg="white" variant="light" expand="lg">
           <Navbar.Brand style={{fontFamily: 'Rubik'}}>
             <Link to="/" style={{textDecoration: 'none'}}>
-              EBU INVEST<span className="text-muted"> | Trade Like a Pro.</span>
+              EBU INVEST<span style={{fontFamily: "Source Sans Pro", fontWeight: "bold"}} className="text-muted"> | Trade Like a Pro.</span>
             </Link>
           </Navbar.Brand>
         <Navbar.Toggle style={{color: "primary"}} aria-controls="basic-navbar-nav" />
