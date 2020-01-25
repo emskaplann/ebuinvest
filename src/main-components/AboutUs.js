@@ -3,6 +3,8 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 // import { Player, ControlBar } from 'video-react';
 import ExampleComponent from "react-rounded-image";
+import { SocialIcon } from 'react-social-icons';
+
 
 
 export default class AboutUs extends React.Component {
@@ -14,15 +16,33 @@ export default class AboutUs extends React.Component {
           <div className="card-body">
             <h3><b>About Us</b></h3>
             We are two friends who have been trading for about 4 years. We developed this software to simplify our own business by automating the analysis methods we use. After the development process of this software we realized how powerful and useful it was, and we decided to share it so that other people could benefit form it.
-            <br /><br />
+            <br /><br /><br />
             <Row>
-              <Col xs={5} sm={5} md={5} lg={5}>
-                <Image src="emsk.jpg" fluid={true} roundedCircle={true} thumbnail={true} style={{width: "30%"}}/>
+              <Col xs={12} sm={12} md={5} lg={5} style={{textAlign: 'center'}}>
+                <Image src="emsk.jpg" fluid={true} roundedCircle={true} thumbnail={true} style={{width: "75%"}}/>
+                <br />
+                <b>Emirhan Kaplan</b>
+                <br />
+                Software Engineer
+                <br />
+                <span className="text-muted">New York, US</span>
+                <br /><br />
+                <SocialIcon url="https://www.linkedin.com/in/emirhan-kaplan/" />
+                <SocialIcon style={{marginLeft: 5}} url="https://twitter.com/emskaplann" />
+                <br /><br />
               </Col>
               <Col xs={2} sm={2} md={2} lg={2}>
               </Col>
-              <Col xs={5} sm={5} md={5} lg={5} className="justify-content-center">
-                <Image src="birbey.jpeg" fluid={true} roundedCircle={true} thumbnail={true} style={{width: "30%"}} />
+              <Col xs={12} sm={12} md={5} lg={5} style={{textAlign: 'center'}}>
+                <Image src="birbey.jpeg" fluid={true} roundedCircle={true} thumbnail={true} style={{width: "75%"}} />
+                <br />
+                <b>Alperen Birbey Sonmez</b>
+                <br />
+                Translator | Student
+                <br />
+                <span className="text-muted">Istanbul, Turkey</span>
+                <br /><br />
+                <SocialIcon url="https://www.linkedin.com/in/alperen-birbey-s%C3%B6nmez-05a69a199/" />
               </Col>
             </Row>
             <br /><br />

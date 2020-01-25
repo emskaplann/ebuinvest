@@ -9,7 +9,7 @@
       name="description"
       content="An Indicator for Online Traders. 10 Day Free Trial Check out our Website!"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.co" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -82,6 +82,12 @@
       "displayMode": "adaptive",
       "locale": "en"
     }
+      </script>
+      <script defer type="text/javascript">
+          let icons = document.getElementByClassName("social-icon")
+          Array.from(icons).forEach(el => {
+            el.setAttribute("target", "_blank")
+          })
       </script>
     </div>
     <style>
@@ -169,5 +175,8 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <nav class="navbar sticky-bottom navbar-light bg-light">
+      <a class="navbar-brand mx-auto" style="font-size: 70%;">NYC Based | EBU INVEST © 2020 | All rights reserved.</a>
+    </nav>
   </body>
 </html>

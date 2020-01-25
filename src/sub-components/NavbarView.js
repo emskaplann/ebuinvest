@@ -34,11 +34,6 @@ export default class NavbarView extends React.Component {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <Navbar style={{marginTop: 200}} fixed="bottom" bg="white" variant="primary">
-          <Navbar.Brand style={{fontSize: '70%'}} className="mx-auto">
-            NYC Based | EBU INVEST © 2020 | All rights reserved.
-          </Navbar.Brand>
-        </Navbar>
       </>
     )
   }
