@@ -1,5 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function populateCarousel(){
   let arr = []
@@ -19,8 +20,16 @@ function populateCarousel(){
 
 export default function CustomCarousel() {
   return(
+    <>
     <Carousel>
       {populateCarousel()}
     </Carousel>
+    <br />
+    <div className="card">
+      <div className="card-body">
+        To see more detailed screenshots, please click <b><Link to="/screenshots">here.</Link></b>
+      </div>
+    </div>
+    </>
   )
 }
