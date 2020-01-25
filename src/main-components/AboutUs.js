@@ -8,6 +8,10 @@ import { SocialIcon } from 'react-social-icons';
 
 
 export default class AboutUs extends React.Component {
+  componentDidMount(){
+    Array.from(document.getElementsByClassName("social-icon")).forEach(a => a.setAttribute("target", "_blank"))
+  }
+
   render(){
     return(
       <>
@@ -23,7 +27,7 @@ export default class AboutUs extends React.Component {
                 <br />
                 <b>Emirhan Kaplan</b>
                 <br />
-                Software Engineer
+                Software Engineer | Trader
                 <br />
                 <span className="text-muted">New York, US</span>
                 <br /><br />
@@ -39,7 +43,7 @@ export default class AboutUs extends React.Component {
                 <br />
                 <b>Alperen Birbey Sonmez</b>
                 <br />
-                Translator | Student
+                Translator | Student | Trader
                 <br />
                 <span className="text-muted">Istanbul, Turkey</span>
                 <br /><br />

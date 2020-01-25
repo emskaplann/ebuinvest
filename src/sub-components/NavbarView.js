@@ -26,6 +26,7 @@ export default class NavbarView extends React.Component {
                 <Link className="nav-link" to="/pricing" style={{textDecoration: 'none'}}>Pricing</Link>
                 <Link className="nav-link" to="/about-us" style={{textDecoration: 'none'}}>About Us</Link>
                 <Link className="nav-link" to="/how-to" style={{textDecoration: 'none'}}>How to?</Link>
+                <Link className="nav-link" to="/faq" style={{textDecoration: 'none'}}>FAQ</Link>
                 <Link className="nav-link" to="/reach-us" style={{textDecoration: 'none'}}>Contact Us</Link>
               </Row>
             </Nav>
