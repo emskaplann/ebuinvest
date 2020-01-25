@@ -15,14 +15,15 @@ import $ from 'jquery';
 import './App.css';
 
 class App extends React.Component {
-  componentDidMount(){
-    $('#pricing-button').click(function(){
-        $('html, body').animate({
-            scrollTop: $( $(this).attr('href') ).offset().top
-        }, 500);
-        return false;
-    });
-  }
+  // componentDidMount(){
+  //   $('#pricing-button').click(function(){
+  //       $('html, body').animate({
+  //           scrollTop: $( $(this).attr('href') ).offset().top
+  //       }, 500);
+  //       return false;
+  //   });
+  // }
+
   render(){
     return (
       <>
