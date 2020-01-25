@@ -21,7 +21,7 @@ export default class HowTo extends React.Component {
           <div className="card-body">
             <h3><b>How to?</b></h3>
             <h4><b>How can I setup the Indicator?</b></h4>
-            We have a guide for just that.
+            We have a guide for just that. Please click here.
           </div>
         </div>
         <br />

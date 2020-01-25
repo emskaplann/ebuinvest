@@ -24,11 +24,11 @@ export default class NavbarView extends React.Component {
             <Nav className="mr-auto">
               <Row style={{justifyContent: "space-between", paddingLeft: 15, paddingRight: 15}}>
                 <Link className="nav-link" to="/pricing" style={{textDecoration: 'none'}}>Pricing</Link>
-                <Link className="nav-link" to="/about-us" style={{textDecoration: 'none'}}>About Us</Link>
-                <Link className="nav-link" to="/screenshots" style={{textDecoration: 'none'}}>Screenshots</Link>
-                <Link className="nav-link" to="/how-to" style={{textDecoration: 'none'}}>How to?</Link>
-                <Link className="nav-link" to="/faq" style={{textDecoration: 'none'}}>FAQ</Link>
-                <Link className="nav-link" to="/reach-us" style={{textDecoration: 'none'}}>Contact Us</Link>
+                <Link className="nav-link" to="/about-us" style={{textDecoration: 'none', marginLeft: 3}}>About Us</Link>
+                <Link className="nav-link" to="/screenshots" style={{textDecoration: 'none', marginLeft: 3}}>Screenshots</Link>
+                <Link className="nav-link" to="/how-to" style={{textDecoration: 'none', marginLeft: 3}}>How to?</Link>
+                <Link className="nav-link" to="/faq" style={{textDecoration: 'none', marginLeft: 3}}>FAQ</Link>
+                <Link className="nav-link" to="/reach-us" style={{textDecoration: 'none', marginLeft: 3}}>Contact Us</Link>
               </Row>
             </Nav>
             <Nav>
