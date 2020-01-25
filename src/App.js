@@ -33,7 +33,7 @@ class App extends React.Component {
          <Route exact path='/' component={IndexPage} key='index' />
          <Route exact path='/about-us' component={AboutUs} key='about-us' />
          <Route exact path='/reach-us' component={ContactForm} key='contact-us' />
-          <Route exact path='/pricing' component={Pricing} key='contact-us' />
+         <Route exact path='/pricing' component={Pricing} key='contact-us' />
          <Route exact path='/become-an-affiliate' component={BecomeAnAffiliate} key='become-an-affiliate' />
          <Route path='/payment-successful/:subId' component={PaymentSuccessfulPage} key='index' />
       </Switch>
