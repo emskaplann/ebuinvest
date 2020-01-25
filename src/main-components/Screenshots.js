@@ -45,13 +45,12 @@ export default class Screenshots extends React.Component {
         <div className="card">
           <div className="card-body">
             <h3><b>Screenshots</b></h3>
-              <Navbar>
-                <Navbar.Brand>Click to Go Fast!</Navbar.Brand>
+              <Row>
                 <a id="gart" href="#gartley" className="nav-link">Gartley</a>
                 <a id="butter" href="#butterfly" className="nav-link">Butterfly</a>
                 <a id="tri" href="#triangle" className="nav-link">Contracting Triangle</a>
                 <a id="head" href="#head-and-shoulders" className="nav-link">Head & Shoulders</a>
-              </Navbar>
+              </Row>
             <br />
             <span onClick={this.props.history.goBack}><b>{"< Go back "}</b></span>| <Link to="/" style={{textDecoration: 'none', color: "black"}}><b>{"< Go to Main Page"}</b></Link>
             <br />
