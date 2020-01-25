@@ -15,8 +15,9 @@ export default class ContactForm extends React.Component{
             Or you can compose yourself, to this mail address <b>contact@ebuinvest.com.</b><br/>
           <div style={{marginTop: 10}}>We don't present a contact form on our website because of the spammers 🤖</div><br /><br />
           <span onClick={this.props.history.goBack}><b>{"< Go back "}</b></span>| <Link to="/" style={{textDecoration: 'none', color: "black"}}><b>{"< Go to Main Page"}</b></Link>
-          </div>
         </div>
+        </div>
+        <br />
       </Container>
     )
   }

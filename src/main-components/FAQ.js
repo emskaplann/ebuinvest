@@ -1,0 +1,62 @@
+import React from 'react';
+import ReactContactForm from 'react-mail-form';
+import { Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
+
+export default class ContactForm extends React.Component{
+  render(){
+    return(
+      <Container style={{marginTop: 20}}>
+        <div className="card">
+          <div className="card-body">
+            <h3><b>Frequently Asked Questions</b></h3>
+            <br />
+            <h5><b>1. Why do you sell this tool if you can make money with it?</b></h5>
+              <div style={{marginTop: 10}}>
+                One of us is student and one of us graduated this year, as you can guess we don't have a big capital :) And this tool does not make money by itself, it stil needs a human to take actions.
+                However, we made good amounts of money on our scale :) And we are constantly making. <u>To be honest our biggest reason is passive income.</u>
+              </div><br /><br />
+
+            <h5><b>2. Does this tool sells and buys automatically?</b></h5>
+              <div style={{marginTop: 10}}>
+                <b>No,</b> this tool doesn't make auto orders. We tried and we are still trying to. But for now, <b>it's not safe.</b>
+              </div><br /><br />
+
+            <h5><b>3. What happens after I subscribe with PayPal?</b></h5>
+              <div style={{marginTop: 10}}>
+                After you complete the PayPal process, we will send you an automated mail. And this mail will contain a form link. You need to fill that form out. To fill that form out you need to have a TradingView Account, Telegram Account and you need to set your username on Telegram doesn't ask for your username at first. More detail about telegram <Link to="/how-to">here</Link>.
+                After that we'll send you inviations on TradingView and Telegram, but don't worry your <u>10 Day Free Trial doesn't start until you accept the inviations.</u>
+              </div><br /><br />
+
+            <h5><b>4. Why do you have free trial?</b></h5>
+                <div style={{marginTop: 10}}>
+                  Because, we believe nobody can know if they're ready for a tool that they never used. And, Guess what?! We don't ghost if you don't buy our product, we still would like to keep in touch with you in another telegram group. In that telegram group we'll try to answer and help any questions you have about the tool or generally about finance. And we will send photos from the tool.
+                  In past, we had finance chat groups to help other people without any payment or something. We were just accepting donations. That's kinda weird but we like to help and talk with other people about finance :)
+                </div><br /><br />
+
+              <h5><b>5. Why Telegram?</b></h5>
+                <div style={{marginTop: 10}}>
+                  We don't know either :) The great advantage about Telegram is that it's not the default chat tool on phones, so, when you go into telegram you just see things about finance. Besides that, it's fast, secure and convenient. Like we said on the previous questions, sometimes giving investment advise to people without a license or company can be a little bit problem on some countries.
+                </div><br /><br />
+
+              <h5><b>6. How Does Alerts Work?</b></h5>
+                <div style={{marginTop: 10}}>
+                  Basically, if you set an alert with our tool, you'll get notifications on your phone, tablet, computer when our tool finds a new pattern on selected stocks, warrants, commodities, etc. And TradingView has their own limit for alerts. You need to see their pricing table to have a good sense about alerts limit. <a href="https://www.tradingview.com/gopro/" target="_blank">Here is the link for pricing table. </a>
+                  With free account you can just set 1 alert. So, that means you can get alert on one stock price or warrant price or commodity price.
+                </div><br /><br />
+
+              <h5><b>7. Can I See The Patterns on My Phone?</b></h5>
+                <div style={{marginTop: 10}}>
+                  <b>Yes,</b> you can see the patterns. You can do whatever you're able to do on computer -not 100% sure-. Thanks to <b>{"TradingView <3"}</b>
+                </div><br /><br />
+
+
+          <span onClick={this.props.history.goBack}><b>{"< Go back "}</b></span>| <Link to="/" style={{textDecoration: 'none', color: "black"}}><b>{"< Go to Main Page"}</b></Link>
+        </div>
+        </div>
+        <br />
+      </Container>
+    )
+  }
+}
