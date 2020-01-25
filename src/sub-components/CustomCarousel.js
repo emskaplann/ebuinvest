@@ -5,7 +5,7 @@ function populateCarousel(){
   let arr = []
   for(let i=1;i < 11;i++){
     arr.push(
-      <Carousel.Item>
+      <Carousel.Item key={i}>
         <img
           className="d-block w-100"
           src={`screenshots/${i}.png`}
