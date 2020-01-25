@@ -15,6 +15,8 @@ export default class AboutUs extends React.Component {
     return(
       <>
       <Container style={{marginTop: 20}}>
+        <Image src="/tgeyes.png" fluid={true} style={{borderRadius: 5}} />
+        <br /><br />
         <div className="card">
           <div className="card-body">
             <h3><b>About Us</b></h3>

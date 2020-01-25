@@ -8,6 +8,10 @@ export default class Pricing extends React.Component {
   render(){
     return(
       <>
+        <Container>
+          <br />
+          <Image src="/tgeyes.png" fluid={true} style={{borderRadius: 5}} />
+        </Container>
         <PricingTable />
         <Container>
           <PaymentFlow />

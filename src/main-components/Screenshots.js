@@ -12,6 +12,12 @@ import $ from 'jquery';
 // H&S => 1 6 10
 export default class Screenshots extends React.Component {
   componentDidMount(){
+    $('#wolfe').click(function(){
+          $('html, body').animate({
+              scrollTop: $( $(this).attr('href') ).offset().top
+          }, 500);
+          return false;
+      });
     $('#gart').click(function(){
           $('html, body').animate({
               scrollTop: $( $(this).attr('href') ).offset().top
@@ -42,10 +48,13 @@ export default class Screenshots extends React.Component {
     return(
       <>
       <Container style={{marginTop: 20}}>
+        <Image src="/tgeyes.png" fluid={true} style={{borderRadius: 5}} />
+        <br /><br />
         <div className="card">
           <div className="card-body">
             <h3><b>Screenshots</b></h3>
               <Row>
+                <a id="wolf" href="#wolfe-wave" className="nav-link">Wolfe Wave</a>
                 <a id="gart" href="#gartley" className="nav-link">Gartley</a>
                 <a id="butter" href="#butterfly" className="nav-link">Butterfly</a>
                 <a id="tri" href="#triangle" className="nav-link">Contracting Triangle</a>

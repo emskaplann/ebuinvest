@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, InputGroup, FormControl } from 'react-bootstrap';
+import { Container, InputGroup, FormControl, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 export default class BecomeAnAffiliate extends React.Component {
@@ -9,10 +9,11 @@ export default class BecomeAnAffiliate extends React.Component {
 
   submit = (e) => {
   }
-  
+
   render(){
     return(
       <Container style={{marginTop: 20}}>
+        <Image src="/tgeyes.png" fluid={true} style={{borderRadius: 5}} />
         <div className="card">
           <div className="card-body">
             <h3><b>Become an Affiliate</b></h3>

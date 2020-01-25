@@ -13,6 +13,7 @@ import BecomeAnAffiliate from './main-components/BecomeAnAffiliate.js';
 import FAQ from './main-components/FAQ.js';
 import Screenshots from './main-components/Screenshots.js';
 import $ from 'jquery';
+import { Image } from 'react-bootstrap';
 
 class App extends React.Component {
   // componentDidMount(){

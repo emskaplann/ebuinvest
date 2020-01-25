@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactContactForm from 'react-mail-form';
-import { Container } from 'react-bootstrap';
+import { Container, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-
 
 export default class ContactForm extends React.Component{
   render(){
@@ -30,7 +29,8 @@ export default class ContactForm extends React.Component{
           </form>
           </div>
           <br />
-          <br />
+          <Image src="/tgroar.jpeg" fluid={true} style={{borderRadius: 5}} />
+          <br /><br />
       </Container>
     )
   }
