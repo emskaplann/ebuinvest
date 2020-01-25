@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 
 function populateCarousel(){
   let arr = []
-  for(let i=1;i < 11;i++){
+  for(let i=10;i > 0;i--){
     arr.push(
       <Carousel.Item key={i}>
         <img

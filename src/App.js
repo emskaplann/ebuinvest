@@ -11,6 +11,7 @@ import AboutUs from './main-components/AboutUs.js';
 import Pricing from './main-components/Pricing.js'
 import BecomeAnAffiliate from './main-components/BecomeAnAffiliate.js';
 import FAQ from './main-components/FAQ.js';
+import Screenshots from './main-components/Screenshots.js';
 import $ from 'jquery';
 
 class App extends React.Component {
@@ -32,7 +33,8 @@ class App extends React.Component {
          <Route exact path='/about-us' component={AboutUs} key='about-us' />
          <Route exact path='/reach-us' component={ContactForm} key='contact-us' />
          <Route exact path='/pricing' component={Pricing} key='contact-us' />
-          <Route exact path='/faq' component={FAQ} key='FAQ' />
+         <Route exact path='/faq' component={FAQ} key='FAQ' />
+         <Route exact path='/screenshots' component={Screenshots} key='FAQ' />
          <Route exact path='/become-an-affiliate' component={BecomeAnAffiliate} key='become-an-affiliate' />
          <Route path='/payment-successful/:subId' component={PaymentSuccessfulPage} key='index' />
       </Switch>
