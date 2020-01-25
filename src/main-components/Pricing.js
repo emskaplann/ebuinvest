@@ -5,6 +5,10 @@ import PaymentFlow from '../sub-components/PaymentFlow.js';
 
 export default class Pricing extends React.Component {
 
+  componentDidMount(){
+    document.getElementById("pricing").setAttribute("style", "padding-top: 1rem !important;")
+  }
+
   render(){
     return(
       <>
