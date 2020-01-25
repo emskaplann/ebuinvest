@@ -19,6 +19,18 @@ export default class ContactForm extends React.Component{
         </div>
         </div>
         <br />
+          <div id="mc_embed_signup" style={{borderRadius: 5}}>
+          <form action="https://ebuinvest.us4.list-manage.com/subscribe/post?u=2f60fef199d823b19d567f7ec&amp;id=ce4caacf66" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+          	<label for="mce-EMAIL">Subscribe to Our TigerLetter!</label>
+          	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required />
+              <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true"><input type="text" name="b_2f60fef199d823b19d567f7ec_ce4caacf66" tabindex="-1" value="" /></div>
+              <div className="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button" /></div>
+              </div>
+          </form>
+          </div>
+          <br />
+          <br />
       </Container>
     )
   }

@@ -25,7 +25,7 @@ export default class ContactForm extends React.Component{
 
             <h5><b>3. What happens after I subscribe with PayPal?</b></h5>
               <div style={{marginTop: 10}}>
-                After you complete the PayPal process, we will send you an automated mail. And this mail will contain a form link. You need to fill that form out. To fill that form out you need to have a TradingView Account. Telegram is optional but we would really like to have you on our chat :)
+                After you complete the PayPal process, we will send you an automated mail. And this mail will contain a form link. You need to fill that form out. To fill that form out you need to have a TradingView Account. Telegram Account is optional but we would really like to have you on our chat :)
                 After that we'll send you inviations on TradingView and Telegram, but don't worry your <u>10 Day Free Trial doesn't start until you accept the inviations.</u>
               </div><br /><br />
 
