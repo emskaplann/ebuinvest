@@ -40,28 +40,28 @@ export default class ContactForm extends React.Component{
                   We don't know either :) The great advantage about Telegram is that it's not the default chat tool on phones, so, when you go into telegram you just see things about finance. Besides that, it's fast, secure and convenient. Like we said on the previous questions, sometimes giving investment advise to people without a license or company can be a little bit problem on some countries.
                 </div><br /><br />
 
-              <h5><b>6. How Does Alerts Work?</b></h5>
+              <h5><b>6. How does alerts work?</b></h5>
                 <div style={{marginTop: 10}}>
                   Basically, if you set an alert with our tool, you'll get notifications on your phone, tablet, computer when our tool finds a new pattern on selected stocks, warrants, commodities, etc. TradingView has their own limit for alerts. You need to see their pricing table to have a good sense about alerts limit. <a href="https://www.tradingview.com/gopro/" target="_blank">Here is the link for pricing table. </a>
                 With free account you can just set <u>1 alert.</u> So, that means you can get alert on one stock price or warrant price or commodity price or etc.
                 </div><br /><br />
 
-              <h5><b>7. Can I See The Patterns on My Phone?</b></h5>
+              <h5><b>7. Can I see the patterns on my phone?</b></h5>
                 <div style={{marginTop: 10}}>
                   <b>Yes,</b> you can see the patterns. You can do whatever you're able to do on computer -not 100% sure-. Thanks to <b>{"TradingView <3"}</b>
                 </div><br /><br />
 
-              <h5><b>8. Do You Planning to Improve The Tool?</b></h5>
+              <h5><b>8. Do you planning to improve the tool?</b></h5>
                 <div style={{marginTop: 10}}>
                   <b>Yes,</b> after we this power, we can't just stay in our place, right? So, one of our biggest goal is to implement <u>Machine Learning Algorithms</u> to the tool. If we can implement without a problem, tool will be able to classify patterns, so, It'll label risky patterns.
                 </div><br /><br />
 
-              <h5><b>9. Does This Tool Works on CryptoCurrency?</b></h5>
+              <h5><b>9. Does this tool works on CryptoCurrency?</b></h5>
                 <div style={{marginTop: 10}}>
                   <b>Yes,</b> of course. Our tool it's not limited with a type of currency or something. <u>Because, every calculation we made is based on math.</u> However, our tool works so good on <b>Bitcoin</b>. We have photos on our main page.
                 </div><br /><br />
 
-              <h5><b>10. Do You Guys Share The Source Code After Subscription?</b></h5>
+              <h5><b>10. Do you guys share the Source Code after Subscription?</b></h5>
                 <div style={{marginTop: 10}}>
                   <b>No,</b> we do not. Otherwise this whole story will be meaningless :) However, we would love to help you on your problems about <b><u>PineScript.</u></b> We know that there is not enough source around. So, we are willing to help you about <b><u>PineScript. </u></b>
                   You can either join our totally free Telegram Group or you could just send a mail to us. To see both options go <Link to="/reach-us">here.</Link>
