@@ -14,7 +14,6 @@ function populateCarousel(){
       </Carousel.Item>
     )
   }
-  console.log(arr)
   return arr
 }
 

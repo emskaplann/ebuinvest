@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-// import { Player, ControlBar } from 'video-react';
 import ExampleComponent from "react-rounded-image";
 import { SocialIcon } from 'react-social-icons';
 

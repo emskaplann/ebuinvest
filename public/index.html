@@ -29,6 +29,13 @@
     <script src="https://kit.fontawesome.com/bb4ab9158a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://video-react.github.io/assets/video-react.css" />
     <title>EBU INVEST</title>
+    <script defer type="text/javascript">
+        let icons = document.getElementByClassName("social-icon")
+        Array.from(icons).forEach(el => {
+          el.setAttribute("target", "_blank")
+        })
+        debugger
+    </script>
   </head>
   <body>
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/2f60fef199d823b19d567f7ec/9bd78169d1a49e7ac759dd1fd.js");</script>
@@ -83,13 +90,6 @@
       "displayMode": "adaptive",
       "locale": "en"
     }
-      </script>
-      <script defer type="text/javascript">
-          let icons = document.getElementByClassName("social-icon")
-          Array.from(icons).forEach(el => {
-            el.setAttribute("target", "_blank")
-          })
-          debugger
       </script>
     </div>
     <style>
