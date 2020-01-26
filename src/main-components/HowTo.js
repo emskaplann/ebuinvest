@@ -20,8 +20,9 @@ export default class HowTo extends React.Component {
         <div className="card">
           <div className="card-body">
             <h3><b>How to?</b></h3>
-            <h4><b>How can I setup the Indicator?</b></h4>
-            We have a guide for just that. Please click here.
+            <h4><b>1. How to setup our Indicator?</b></h4>
+            We have a guide for just that. Please click <a href="https://medium.com/@snmzbrby/ebu-indicator-guide-b9bfe60916a3">here.</a> Also we publish weekly stories about finance on that account.
+            This guide covers not only setup, It also includes how to take actions(buy or sell) based on our Indicator.
           </div>
         </div>
         <br />
