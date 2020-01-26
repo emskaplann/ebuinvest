@@ -53,7 +53,7 @@ export default class ContactForm extends React.Component{
                 We don't know either :) The great advantage about Telegram is that it's not the default chat tool on phones, so, when you go into telegram you just see things about finance. Besides that, it's fast, secure and convenient. Like we said on the previous questions, sometimes giving investment advise to people without a license or company can be a little bit problem on some countries.
               </div><br /><br />
 
-            <h5><b>8. How does alerts work?</b></h5>
+            <h5><b>8. How does alerts(notifications) work?</b></h5>
               <div style={{marginTop: 10}}>
                 Basically, if you set an alert with our tool, you'll get notifications on your phone, tablet, computer when our tool finds a new pattern on selected stocks, warrants, commodities, etc. TradingView has their own limit for alerts. You need to see their pricing table to have a good sense about alerts limit. <a href="https://www.tradingview.com/gopro/" target="_blank">Here is the link for pricing table. </a>
                 With free account you can just set <u>1 alert.</u> So, that means you can get alert on one stock price or warrant price or commodity price or etc.
