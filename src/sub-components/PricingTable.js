@@ -1,5 +1,6 @@
 import React from 'react';
 import { Divider } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
 
 class PricingTable extends React.Component {
   constructor(){
@@ -14,6 +15,12 @@ class PricingTable extends React.Component {
       <section className="pricing py-5" id="pricing">
         <div className="container">
           <Divider style={{color: 'white'}} horizontal>EBU Indicator Pricing</Divider>
+          <div className="card">
+            <div className="card-body">
+              We have <b>3 different subscription options according the different budgets.</b> If you have any further questions about pricing please contact us from <Link to="/reach-us"><b>here.</b></Link>
+            </div>
+          </div>
+          <br />
           <div className="row">
             <div className="col-lg-4">
               <div className="card mb-5 mb-lg-0">
