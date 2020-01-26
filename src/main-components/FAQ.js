@@ -26,6 +26,11 @@ export default class ContactForm extends React.Component{
                 <b>No,</b> this tool doesn't make auto orders. We tried and we are still trying to. But for now, <b>it's not safe.</b>
               </div><br /><br />
 
+            <h5><b>3. What is about tigers?</b></h5>
+              <div style={{marginTop: 10}}>
+                <b>We love everything about tigers.</b> The most important thing to know about them as a trader is that <u>every tiger is unique in a lot of way.</u> Point is, in trading to make money you always need to think and act different. Also you need to be agile, patient and awake. To see amazing facts about tigers visit <a href="http://www.animalplanet.com/wild-animals/tigerpedia/tiger-facts-prove-big-cats-amazing/" target="_blank">here.</a> <u>We also donate the <b>5%</b> of the income to tigers we make from here.</u>
+              </div><br /><br />
+
             <h5><b>3. What happens after I subscribe with PayPal?</b></h5>
               <div style={{marginTop: 10}}>
                 After you complete the PayPal process, we will send you an automated mail. And this mail will contain a form link. You need to fill that form out. To fill that form out you need to have a TradingView Account.
