@@ -28,7 +28,7 @@ export default class ContactForm extends React.Component{
 
             <h5><b>3. What is about tigers?</b></h5>
               <div style={{marginTop: 10}}>
-                <b>We love everything about tigers.</b> The most important thing to know about them as a trader is that <u>every tiger is <b>unique</b> in a lot of way.</u> Point is, in trading to make money you always need to think and act different. Also you need to be agile, patient and awake. To see amazing facts about tigers visit <a href="http://www.animalplanet.com/wild-animals/tigerpedia/tiger-facts-prove-big-cats-amazing/" target="_blank">here.</a> <u>We also donate the <b>5%</b> of the income to tigers we make from here.</u> So far, we adopted one tiger. You can see details about the tiger on <a href="" target="_blank">here</a>.
+                <b>We love everything about tigers.</b> The most important thing to know about them as a trader is that <u>every tiger is <b>unique</b> in a lot of way.</u> Point is, in trading to make money you always need to think and act different. Also you need to be agile, patient and awake. To see amazing facts about tigers visit <a href="http://www.animalplanet.com/wild-animals/tigerpedia/tiger-facts-prove-big-cats-amazing/" target="_blank">here.</a> <u>We also donate <b>5%</b> of the income we make from here to the tigers.</u> So far, we adopted one tiger. You can see details about the tiger on <a href="" target="_blank">here</a>.
               </div><br /><br />
 
             <h5><b>4. What happens after I subscribe with PayPal?</b></h5>
