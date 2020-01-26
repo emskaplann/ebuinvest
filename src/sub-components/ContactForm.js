@@ -5,6 +5,11 @@ import { Link } from 'react-router-dom';
 import JoinUs from '../sub-components/JoinUs.js';
 
 export default class ContactForm extends React.Component{
+
+  componentDidMount(){
+    window.document.title = "EBU INVEST | Contact Us"
+  }
+
   render(){
     return(
       <Container style={{marginTop: 20}}>

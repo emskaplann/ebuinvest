@@ -12,6 +12,7 @@ import $ from 'jquery';
 // H&S => 1 6 10
 export default class Screenshots extends React.Component {
   componentDidMount(){
+    window.document.title = "EBU INVEST | Screenshots"
     $('#wolf').click(function(){
           $('html, body').animate({
               scrollTop: $( $(this).attr('href') ).offset().top

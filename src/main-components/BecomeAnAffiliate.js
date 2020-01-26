@@ -7,6 +7,10 @@ export default class BecomeAnAffiliate extends React.Component {
     mail: ""
   }
 
+  componentDidMount(){
+    window.document.title = "EBU INVEST | Become an Affiliate"
+  }
+
   submit = (e) => {
   }
 

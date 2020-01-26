@@ -8,6 +8,7 @@ import { SocialIcon } from 'react-social-icons';
 
 export default class AboutUs extends React.Component {
   componentDidMount(){
+    window.document.title = "EBU INVEST | About Us"
     Array.from(document.getElementsByClassName("social-icon")).forEach(a => a.setAttribute("target", "_blank"))
   }
 

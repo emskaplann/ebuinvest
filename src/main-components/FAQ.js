@@ -6,6 +6,10 @@ import { Image } from 'react-bootstrap';
 
 
 export default class ContactForm extends React.Component{
+  componentDidMount(){
+    window.document.title = "EBU INVEST | FAQ"  
+  }
+
   render(){
     return(
       <Container style={{marginTop: 20}}>

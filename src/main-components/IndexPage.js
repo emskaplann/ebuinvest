@@ -16,6 +16,10 @@ class IndexPage extends React.Component {
     }
   }
 
+  componentDidMount(){
+    window.document.title = "EBU INVEST"
+  }
+
   render(){
     return (
         <>
