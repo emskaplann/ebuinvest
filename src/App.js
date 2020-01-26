@@ -41,7 +41,7 @@ class App extends React.Component {
          <Route exact path='/become-an-affiliate' component={BecomeAnAffiliate} key='become-an-affiliate' />
          <Route path='/payment-successful/:subId' component={PaymentSuccessfulPage} key='index' />
       </Switch>
-       <ScrollUpButton style={{marginBottom: 50}}/>
+       <ScrollUpButton style={{marginBottom: 30}}/>
        </>
     );
   }
