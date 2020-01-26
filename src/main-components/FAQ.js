@@ -34,7 +34,7 @@ export default class ContactForm extends React.Component{
 
             <h5><b>4. Do you only accept PayPal?</b></h5>
               <div style={{marginTop: 10}}>
-                <b>Yes,</b> unfortunately we do.
+                <b>Yes,</b> right now we only accept PayPal. But we're working on other payment systems.
               </div><br /><br />
 
             <h5><b>5. Why do you have free trial?</b></h5>
