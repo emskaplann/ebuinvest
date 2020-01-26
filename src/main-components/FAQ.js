@@ -80,7 +80,7 @@ export default class ContactForm extends React.Component{
             <h5><b>12. Do you guys share the Source Code after Subscription?</b></h5>
               <div style={{marginTop: 10}}>
                 <b>No,</b> we do not. Otherwise this whole story will be meaningless :) However, we would love to help you on your problems about <b><u>PineScript.</u></b> We know that there is not enough source around. So, we are willing to help you about <b><u>PineScript. </u></b>
-                You can either join our totally free Telegram Group or you could just send a mail to us. To see both options go <Link to="/reach-us">here.</Link>
+                You can either join our totally free Telegram Group or you could just send a mail to us. To see both options go <Link to="/reach-us"><b>here.</b></Link>
               </div><br /><br />
 
           <span onClick={this.props.history.goBack}><b>{"< Go back "}</b></span>| <Link to="/" style={{textDecoration: 'none', color: "black"}}><b>{"< Go to Main Page"}</b></Link>
