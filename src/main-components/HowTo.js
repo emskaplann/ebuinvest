@@ -1,8 +1,6 @@
 import React from 'react';
 import { Container, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import ExampleComponent from "react-rounded-image";
-import { SocialIcon } from 'react-social-icons';
 
 
 

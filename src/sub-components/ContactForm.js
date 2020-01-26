@@ -17,14 +17,14 @@ export default class ContactForm extends React.Component{
             <h3><b>How to Contact Us?</b></h3>
             You can simply press<a target="_blank" rel="noopener noreferrer" href="mailto:contact@ebuinvest.com?subject=Support - Your Subject" style={{textDecoration: 'none'}}> <b>here</b></a> to compose a mail to us.
             Or you can compose yourself, to this mail address <b>contact@ebuinvest.com.</b><br/>
-          <div style={{marginTop: 10}}><a href="https://t.me/joinchat/NeUKX1EKpn9Bk03V2JldlA" target="_blank"><b>Join our Free Telegram Group for daily insights and to get your questions answered in light speed.</b></a></div>
-          <div style={{marginTop: 10}}>We don't present a contact form on our website because of the spammers 🤖</div><br /><br />
+          <div style={{marginTop: 10}}><a href="https://t.me/joinchat/NeUKX1EKpn9Bk03V2JldlA" rel="noopener noreferrer" target="_blank"><b>Join our Free Telegram Group for daily insights and to get your questions answered in light speed.</b></a></div>
+          <div style={{marginTop: 10}}>We don't present a contact form on our website because of the spammers.</div><br /><br />
           <span onClick={this.props.history.goBack}><b>{"< Go back "}</b></span>| <Link to="/" style={{textDecoration: 'none', color: "black"}}><b>{"< Go to Main Page"}</b></Link>
         </div>
         </div>
         <br />
           <div id="mc_embed_signup" style={{borderRadius: 5}}>
-          <form action="https://ebuinvest.us4.list-manage.com/subscribe/post?u=2f60fef199d823b19d567f7ec&amp;id=ce4caacf66" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <form action="https://ebuinvest.us4.list-manage.com/subscribe/post?u=2f60fef199d823b19d567f7ec&amp;id=ce4caacf66" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" rel="noopener noreferrer" target="_blank" novalidate>
               <div id="mc_embed_signup_scroll">
           	<h4><b>Subscribe to Our TigerLetter!</b></h4>
             <span>We will send you weekly content about how to become a Tiger on market.</span><br /><br />

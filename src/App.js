@@ -1,10 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import { Route, Switch } from 'react-router-dom';
 import IndexPage from './main-components/IndexPage.js'
 import PaymentSuccessfulPage from './main-components/PaymentSuccessfulPage.js'
 import NavbarView from './sub-components/NavbarView.js'
-import { connect } from 'react-redux';
 import {VerticleButton as ScrollUpButton} from "react-scroll-up-button";
 import ContactForm from './sub-components/ContactForm.js';
 import AboutUs from './main-components/AboutUs.js';
@@ -14,8 +12,6 @@ import FAQ from './main-components/FAQ.js';
 import HowTo from './main-components/HowTo.js';
 import Screenshots from './main-components/Screenshots.js';
 import { Loader, Segment, Dimmer } from 'semantic-ui-react';
-import $ from 'jquery';
-import { Image } from 'react-bootstrap';
 
 class App extends React.Component {
   constructor(){
