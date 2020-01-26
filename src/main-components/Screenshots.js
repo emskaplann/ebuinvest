@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Image, Navbar } from 'react-bootstrap';
+import { Container, Row, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Divider } from 'semantic-ui-react';
 import $ from 'jquery';

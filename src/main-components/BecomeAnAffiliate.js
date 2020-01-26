@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, InputGroup, FormControl, Image } from 'react-bootstrap';
+import { Container, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 export default class BecomeAnAffiliate extends React.Component {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import ExampleComponent from "react-rounded-image";
 import { SocialIcon } from 'react-social-icons';
@@ -23,12 +23,12 @@ export default class HowTo extends React.Component {
             <h3><b>How to?</b></h3>
 
             <h4><b>1. How to setup our Indicator?</b></h4>
-            We have a guide for just that. Please click <a target="_blank" href="https://medium.com/@snmzbrby/ebu-indicator-guide-b9bfe60916a3"><b>here.</b></a> Also we publish weekly stories about finance on that account.
+            We have a guide for just that. Please click <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@snmzbrby/ebu-indicator-guide-b9bfe60916a3"><b>here.</b></a> Also we publish weekly stories about finance on that account.
             This guide covers not only setup, It also includes how to take actions(buy or sell) based on our Indicator.
             <br /><br />
 
             <h4><b>2. How to take actions(buy or sell) based on our Indicator?</b></h4>
-            Our setup and actions guide is in the same guide. Please click <a target="_blank" href="https://medium.com/@snmzbrby/ebu-indicator-guide-b9bfe60916a3"><b>here</b></a> to see the guide.
+            Our setup and actions guide is in the same guide. Please click <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@snmzbrby/ebu-indicator-guide-b9bfe60916a3"><b>here</b></a> to see the guide.
             <br /><br />
 
             <h4><b>3. How to get motivated?</b></h4>
@@ -41,6 +41,7 @@ export default class HowTo extends React.Component {
             <span className="text-muted"><b>Note:</b> We don't create or make these videos, it's just sources we found helpful.</span>
             <br /><br />
 
+            <span onClick={this.props.history.goBack}><b>{"< Go back "}</b></span>| <Link to="/" style={{textDecoration: 'none', color: "black"}}><b>{"< Go to Main Page"}</b></Link>
           </div>
         </div>
         <br />

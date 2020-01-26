@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Image } from 'react-bootstrap';
 import PricingTable from '../sub-components/PricingTable.js';
 import PaymentFlow from '../sub-components/PaymentFlow.js';
 

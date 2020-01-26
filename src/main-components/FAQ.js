@@ -7,7 +7,7 @@ import { Image } from 'react-bootstrap';
 
 export default class ContactForm extends React.Component{
   componentDidMount(){
-    window.document.title = "EBU INVEST | FAQ"  
+    window.document.title = "EBU INVEST | FAQ"
   }
 
   render(){
@@ -32,7 +32,7 @@ export default class ContactForm extends React.Component{
 
             <h5><b>3. What is about tigers?</b></h5>
               <div style={{marginTop: 10}}>
-                <b>We love everything about tigers.</b> The most important thing to know about them as a trader is that <u>every tiger is <b>unique</b> in a lot of way.</u> Point is, in trading to make money you always need to think and act different. Also you need to be agile, patient and awake. To see amazing facts about tigers visit <a href="http://www.animalplanet.com/wild-animals/tigerpedia/tiger-facts-prove-big-cats-amazing/" target="_blank"><b>here.</b></a> <u>We also donate <b>5%</b> of the income we make from here to the tigers.</u> So far, we adopted one tiger. You can see details about the tiger on <a href="https://gifts.worldwildlife.org/gift-center/onlinepremiums/onlinecertificate.aspx?bvin=a034e709-29bf-45c6-a186-6145c23dda99" target="_blank"><b>here</b></a>.
+                <b>We love everything about tigers.</b> The most important thing to know about them as a trader is that <u>every tiger is <b>unique</b> in a lot of way.</u> Point is, in trading to make money you always need to think and act different. Also you need to be agile, patient and awake. To see amazing facts about tigers visit <a href="http://www.animalplanet.com/wild-animals/tigerpedia/tiger-facts-prove-big-cats-amazing/" rel="noopener noreferrer" target="_blank"><b>here.</b></a> <u>We also donate <b>5%</b> of the income we make from here to the tigers.</u> So far, we adopted one tiger. You can see details about the tiger on <a href="https://gifts.worldwildlife.org/gift-center/onlinepremiums/onlinecertificate.aspx?bvin=a034e709-29bf-45c6-a186-6145c23dda99" target="_blank"><b>here</b></a>.
               </div><br /><br />
 
             <h5><b>4. What happens after I subscribe with PayPal?</b></h5>
@@ -59,7 +59,7 @@ export default class ContactForm extends React.Component{
 
             <h5><b>8. How does alerts(notifications) work?</b></h5>
               <div style={{marginTop: 10}}>
-                Basically, if you set an alert with our tool, you'll get notifications on your phone, tablet, computer when our tool finds a new pattern on selected stocks, warrants, commodities, etc. TradingView has their own limit for alerts. You need to see their pricing table to have a good sense about alerts limit. <a href="https://www.tradingview.com/gopro/" target="_blank">Here is the link for pricing table. </a>
+                Basically, if you set an alert with our tool, you'll get notifications on your phone, tablet, computer when our tool finds a new pattern on selected stocks, warrants, commodities, etc. TradingView has their own limit for alerts. You need to see their pricing table to have a good sense about alerts limit. <a href="https://www.tradingview.com/gopro/" rel="noopener noreferrer" target="_blank">Here is the link for pricing table. </a>
                 With free account you can just set <u>1 alert.</u> So, that means you can get alert on one stock price or warrant price or commodity price or etc.
               </div><br /><br />
 
