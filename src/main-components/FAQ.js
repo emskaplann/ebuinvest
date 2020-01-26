@@ -74,7 +74,7 @@ export default class ContactForm extends React.Component{
                 <b>Yes,</b> of course. Our tool it's not limited with a type of currency or something. <u>Because, every calculation we made is based on math.</u> However, our tool works so good on <b>Bitcoin</b>. We have photos on our main page.
               </div><br /><br />
 
-            <h5><b>11. Do you guys share the Source Code after Subscription?</b></h5>
+            <h5><b>12. Do you guys share the Source Code after Subscription?</b></h5>
               <div style={{marginTop: 10}}>
                 <b>No,</b> we do not. Otherwise this whole story will be meaningless :) However, we would love to help you on your problems about <b><u>PineScript.</u></b> We know that there is not enough source around. So, we are willing to help you about <b><u>PineScript. </u></b>
                 You can either join our totally free Telegram Group or you could just send a mail to us. To see both options go <Link to="/reach-us">here.</Link>
