@@ -14,6 +14,7 @@ export default class BecomeAnAffiliate extends React.Component {
     return(
       <Container style={{marginTop: 20}}>
         <Image src="/tgeyes.png" fluid={true} style={{borderRadius: 5}} />
+        <br /><br />
         <div className="card">
           <div className="card-body">
             <h3><b>Become an Affiliate</b></h3>
@@ -21,6 +22,7 @@ export default class BecomeAnAffiliate extends React.Component {
             <span onClick={this.props.history.goBack}><b>{"< Go back "}</b></span>| <Link to="/" style={{textDecoration: 'none', color: "black"}}><b>{"< Go to Main Page"}</b></Link>
           </div>
         </div>
+        <br /><br />
       </Container>
     )
   }
