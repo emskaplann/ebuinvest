@@ -20,6 +20,7 @@ class PricingTable extends React.Component {
                 <div className="card-body">
                   <h5 className="card-title text-muted text-uppercase text-center">Pay each month</h5>
                   <h6 className="card-price text-center">$54.99<span className="period">/month</span></h6>
+                  <h6 className="card-title text-muted text-uppercase text-center"><strike>$59.99</strike><span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>10 Days Free Trial</li>
@@ -46,6 +47,7 @@ class PricingTable extends React.Component {
                 <div className="card-body" style={{borderTop: "5px solid #33AEFF", borderBottom: "5px solid #33AEFF", borderRadius: '1rem'}}>
                   <h5 className="card-title text-muted text-uppercase text-center">PAY EACH 3 MONTH</h5>
                   <h6 className="card-price text-center">$49.99<span className="period">/month</span></h6>
+                  <h6 className="card-title text-muted text-uppercase text-center"><strike>$54.99</strike><span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>10 Days Free Trial</li>
@@ -72,6 +74,7 @@ class PricingTable extends React.Component {
                 <div className="card-body">
                   <h5 className="card-title text-muted text-uppercase text-center">PAY EACH YEAR</h5>
                   <h6 className="card-price text-center">$39.99<span className="period">/month</span></h6>
+                  <h6 className="card-title text-muted text-uppercase text-center"><strike>$44.99</strike><span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>10 Days Free Trial</li>
