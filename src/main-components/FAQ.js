@@ -45,6 +45,12 @@ export default class ContactForm extends React.Component{
                 <b>Yes,</b> right now we only accept PayPal, however paypal accepts guest subscription from U.S. and Canada. We are working on other payment systems.
               </div><br /><br />
 
+            <h5><b>5. How can I unsubscribe?</b></h5>
+              <div style={{marginTop: 10}}>
+                For every type of unsubscribe, you can simply get all the information you need from PayPal. Please click <a href="https://www.paypal.com/li/smarthelp/article/how-do-i-cancel-a-recurring-payment,-subscription,-or-automatic-billing-agreement-i-have-with-a-merchant-faq1067" target="_blank" rel="noopener noreferrer"><b>here.</b></a><br />
+              <span className="text-muted"><b><u>Note: This is an PayPal issue but to be 100% sure about unsubscribing you need to unsubscribe 1 day before the payment due.</u></b></span>
+             </div><br /><br />
+
             <h5><b>6. Why do you have free trial?</b></h5>
               <div style={{marginTop: 10}}>
                 Because, we believe nobody can know if they're ready for a tool that they never used. And, Guess what?! We don't ghost if you don't buy our product, we still would like to keep in touch with you in another telegram group. In that telegram group we'll try to answer and help any questions you have about the tool or generally about finance. And we will send photos from the tool.
