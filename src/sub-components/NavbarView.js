@@ -6,14 +6,13 @@ export default class NavbarView extends React.Component {
   constructor(){
     super();
     this.state = {
-
     }
   }
 
   render(){
     return(
       <>
-        <Navbar bg="white" variant="light" sticky="top" expand="lg">
+        <Navbar bg="white" variant="light" sticky={window.screen.width < 769 ? "top" : false} expand="lg">
           <Navbar.Brand style={{fontFamily: 'Rubik'}}>
             <Link to="/" style={{textDecoration: 'none'}}>
               EBU INVEST<span style={{fontFamily: "Source Sans Pro", fontWeight: "bold"}} className="text-muted"> | Trade Like a Pro.</span>
