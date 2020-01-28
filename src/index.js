@@ -8,13 +8,14 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import indexReducer from './reducers/index.js';
 import * as serviceWorker from './serviceWorker';
+import ScrollToTop from './sub-components/ScrollToTop.js';
 
 const store = createStore(indexReducer,
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 )
 
 
-ReactDOM.render(<Provider store={store}><HashRouter><App /></HashRouter></Provider>, document.getElementById('root'));
+ReactDOM.render(<Provider store={store}><HashRouter><ScrollToTop><App /></ScrollToTop></HashRouter></Provider>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
