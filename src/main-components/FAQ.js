@@ -53,7 +53,7 @@ export default class ContactForm extends React.Component{
 
             <h5><b>7. Why Telegram?</b></h5>
               <div style={{marginTop: 10}}>
-                We don't know either :) The great advantage about Telegram is that it's not the default chat tool on phones, so, when you go into telegram you just see things about finance. Besides that, it's fast, secure and convenient. Like we said on the previous questions, sometimes giving investment advise to people without a license or company can be a little bit problem on some countries.
+                We don't know either :) The great advantage about Telegram is that it's not the default chat tool on phones, so, when you go into telegram you just see things about finance. Besides that, it's fast, secure and convenient. Like we said on the previous questions, sometimes giving investment advise to people without a license can be a little bit problem on some countries.
               </div><br /><br />
 
             <h5><b>8. How does alerts(notifications) work?</b></h5>
@@ -69,7 +69,7 @@ export default class ContactForm extends React.Component{
 
             <h5><b>10. Do you planning to improve the tool?</b></h5>
               <div style={{marginTop: 10}}>
-                <b>Yes,</b> after we this power, we can't just stay in our place, right? So, one of our biggest goal is to implement <u>Machine Learning Algorithms</u> to the tool. If we can implement without a problem, tool will be able to classify patterns, so, It'll label risky patterns.
+                <b>Yes,</b> after we see this power, we can't just stay in our place, right? So, one of our biggest goal is to implement <u>Machine Learning Algorithms</u> to the tool. If we can implement without a problem, tool will be able to classify patterns, so, It'll label risky patterns.
               </div><br /><br />
 
             <h5><b>11. Does this tool works on CryptoCurrency?</b></h5>
