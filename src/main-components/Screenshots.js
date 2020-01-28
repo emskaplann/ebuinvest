@@ -137,10 +137,6 @@ export default class Screenshots extends React.Component {
           </div>
           <br />
           <div style={{textAlign: 'center'}}>
-            <Image style={{borderRadius: 5}} src="/screenshots/15.png" fluid={true} />
-          <br />
-          </div>
-          <div style={{textAlign: 'center'}}>
             <Image style={{borderRadius: 5}} src="/screenshots/16.png" fluid={true} />
           </div>
           <br /><br />
