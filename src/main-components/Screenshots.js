@@ -5,11 +5,12 @@ import { Divider } from 'semantic-ui-react';
 import $ from 'jquery';
 
 
-// Wolfe => 11 9 8 7 6 4 2 1
-// Gartley => 18 17 12 6
-// Butterfly => 3 4 5 13 14
-// Triangle => 5 15 16
-// H&S => 1 6 10
+// Wolfe => 1 4 9 10 12 13 16 17 18
+// Gartley => 2 19
+// Butterfly => 6 7 8 14 15 16
+// Triangle => 5 6 7
+// H&S => 3 4 8 11 13
+
 export default class Screenshots extends React.Component {
   componentDidMount(){
     window.document.title = "EBU INVEST | Screenshots"
@@ -67,23 +68,7 @@ export default class Screenshots extends React.Component {
             <Divider horizontal id="wolfe-wave">Wolfe Wave</Divider>
             <br />
             <div style={{textAlign: 'center'}}>
-              <Image style={{borderRadius: 5}} src="/screenshots/11.png" fluid={true} />
-            <br />
-            </div>
-            <div style={{textAlign: 'center'}}><br />
-              <Image style={{borderRadius: 5}} src="/screenshots/9.png" fluid={true} />
-            <br />
-            </div>
-            <div style={{textAlign: 'center'}}><br />
-              <Image style={{borderRadius: 5}} src="/screenshots/8.png" fluid={true} />
-            <br />
-            </div>
-            <div style={{textAlign: 'center'}}><br />
-              <Image style={{borderRadius: 5}} src="/screenshots/7.png" fluid={true} />
-            <br />
-            </div>
-            <div style={{textAlign: 'center'}}><br />
-              <Image style={{borderRadius: 5}} src="/screenshots/6.png" fluid={true} />
+              <Image style={{borderRadius: 5}} src="/screenshots/1.png" fluid={true} />
             <br />
             </div>
             <div style={{textAlign: 'center'}}><br />
@@ -91,27 +76,78 @@ export default class Screenshots extends React.Component {
             <br />
             </div>
             <div style={{textAlign: 'center'}}><br />
-              <Image style={{borderRadius: 5}} src="/screenshots/2.png" fluid={true} />
+              <Image style={{borderRadius: 5}} src="/screenshots/9.png" fluid={true} />
             <br />
             </div>
             <div style={{textAlign: 'center'}}><br />
-              <Image style={{borderRadius: 5}} src="/screenshots/1.png" fluid={true} />
+              <Image style={{borderRadius: 5}} src="/screenshots/10.png" fluid={true} />
+            <br />
+            </div>
+            <div style={{textAlign: 'center'}}><br />
+              <Image style={{borderRadius: 5}} src="/screenshots/12.png" fluid={true} />
+            <br />
+            </div>
+            <div style={{textAlign: 'center'}}><br />
+              <Image style={{borderRadius: 5}} src="/screenshots/13.png" fluid={true} />
+            <br />
+            </div>
+            <div style={{textAlign: 'center'}}><br />
+              <Image style={{borderRadius: 5}} src="/screenshots/16.png" fluid={true} />
+            <br />
+            </div>
+            <div style={{textAlign: 'center'}}><br />
+              <Image style={{borderRadius: 5}} src="/screenshots/17.png" fluid={true} />
+              <br />
+          </div>
+          <div style={{textAlign: 'center'}}><br />
+            <Image style={{borderRadius: 5}} src="/screenshots/18.png" fluid={true} />
           </div>
           <br /><br />
             <Divider horizontal id="gartley">Gartley</Divider>
           <br />
           <div style={{textAlign: 'center'}}>
-            <Image style={{borderRadius: 5}} src="/screenshots/18.png" fluid={true} />
+            <Image style={{borderRadius: 5}} src="/screenshots/2.png" fluid={true} />
           <br />
           </div>
           <br />
           <div style={{textAlign: 'center'}}>
-            <Image style={{borderRadius: 5}} src="/screenshots/17.png" fluid={true} />
+            <Image style={{borderRadius: 5}} src="/screenshots/19.png" fluid={true} />
+          </div>
+          <br /><br />
+            <Divider horizontal id="butterfly">Butterfly</Divider>
+          <br />
+          <div style={{textAlign: 'center'}}>
+            <Image style={{borderRadius: 5}} src="/screenshots/6.png" fluid={true} />
           <br />
           </div>
           <br />
           <div style={{textAlign: 'center'}}>
-            <Image style={{borderRadius: 5}} src="/screenshots/12.png" fluid={true} />
+            <Image style={{borderRadius: 5}} src="/screenshots/7.png" fluid={true} />
+          <br />
+          </div>
+          <br />
+          <div style={{textAlign: 'center'}}>
+            <Image style={{borderRadius: 5}} src="/screenshots/8.png" fluid={true} />
+          <br />
+          </div>
+          <br />
+          <div style={{textAlign: 'center'}}>
+            <Image style={{borderRadius: 5}} src="/screenshots/14.png" fluid={true} />
+          <br />
+          </div>
+          <br />
+          <div style={{textAlign: 'center'}}>
+            <Image style={{borderRadius: 5}} src="/screenshots/15.png" fluid={true} />
+          <br />
+          </div>
+          <div style={{textAlign: 'center'}}>
+            <Image style={{borderRadius: 5}} src="/screenshots/16.png" fluid={true} />
+          </div>
+          <br /><br />
+            <Divider horizontal id="triangle">Contracting Triangle</Divider>
+          <br />
+          <div style={{textAlign: 'center'}}>
+            <Image style={{borderRadius: 5}} src="/screenshots/5.png" fluid={true} />
           <br />
           </div>
           <br />
@@ -119,8 +155,13 @@ export default class Screenshots extends React.Component {
             <Image style={{borderRadius: 5}} src="/screenshots/6.png" fluid={true} />
           <br />
           </div>
+          <br />
+          <div style={{textAlign: 'center'}}>
+            <Image style={{borderRadius: 5}} src="/screenshots/7.png" fluid={true} />
+          <br />
+          </div>
           <br /><br />
-            <Divider horizontal id="butterfly">Butterfly</Divider>
+            <Divider horizontal id="head-and-shoulders">Head & Shoulders</Divider>
           <br />
           <div style={{textAlign: 'center'}}>
             <Image style={{borderRadius: 5}} src="/screenshots/3.png" fluid={true} />
@@ -133,51 +174,15 @@ export default class Screenshots extends React.Component {
           </div>
           <br />
           <div style={{textAlign: 'center'}}>
-            <Image style={{borderRadius: 5}} src="/screenshots/5.png" fluid={true} />
+            <Image style={{borderRadius: 5}} src="/screenshots/8.png" fluid={true} />
           <br />
           </div>
+          <div style={{textAlign: 'center'}}>
+            <Image style={{borderRadius: 5}} src="/screenshots/11.png" fluid={true} />
           <br />
+          </div>
           <div style={{textAlign: 'center'}}>
             <Image style={{borderRadius: 5}} src="/screenshots/13.png" fluid={true} />
-          <br />
-          </div>
-          <br />
-          <div style={{textAlign: 'center'}}>
-            <Image style={{borderRadius: 5}} src="/screenshots/14.png" fluid={true} />
-          <br />
-          </div>
-          <br /><br />
-            <Divider horizontal id="triangle">Contracting Triangle</Divider>
-          <br />
-          <div style={{textAlign: 'center'}}>
-            <Image style={{borderRadius: 5}} src="/screenshots/5.png" fluid={true} />
-          <br />
-          </div>
-          <br />
-          <div style={{textAlign: 'center'}}>
-            <Image style={{borderRadius: 5}} src="/screenshots/15.png" fluid={true} />
-          <br />
-          </div>
-          <br />
-          <div style={{textAlign: 'center'}}>
-            <Image style={{borderRadius: 5}} src="/screenshots/16.png" fluid={true} />
-          <br />
-          </div>
-          <br /><br />
-            <Divider horizontal id="head-and-shoulders">Head & Shoulders</Divider>
-          <br />
-          <div style={{textAlign: 'center'}}>
-            <Image style={{borderRadius: 5}} src="/screenshots/1.png" fluid={true} />
-          <br />
-          </div>
-          <br />
-          <div style={{textAlign: 'center'}}>
-            <Image style={{borderRadius: 5}} src="/screenshots/6.png" fluid={true} />
-          <br />
-          </div>
-          <br />
-          <div style={{textAlign: 'center'}}>
-            <Image style={{borderRadius: 5}} src="/screenshots/10.png" fluid={true} />
           <br />
           </div>
           <br />
