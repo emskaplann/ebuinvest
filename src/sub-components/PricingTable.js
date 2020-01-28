@@ -17,7 +17,7 @@ class PricingTable extends React.Component {
           <Divider style={{color: 'white'}} horizontal>EBU Indicator Pricing</Divider>
           <div className="card">
             <div className="card-body">
-              We have <b>3 different subscription options according the different budgets.</b> For companies who needs to buy <b>for multiple accounts we offer a discounted special price with <u>30 Day Free Trial.</u></b>  If you have any further questions about pricing or you want a get a price for multiple accounts please contact us from <Link to="/reach-us"><b>here.</b></Link>
+              We have <b>3 different subscription options according the different budgets.</b> For companies who needs to subscribe <b>for multiple accounts we offer a special price with discount and <u>30 Day Free Trial.</u></b>  If you have any further questions about pricing or you want a get a price for multiple accounts please contact us from <Link to="/reach-us"><b>here.</b></Link>
             </div>
           </div>
           <br />
@@ -52,7 +52,7 @@ class PricingTable extends React.Component {
             <div className="col-lg-4">
               <div className="card mb-5 mb-lg-0">
                 <div className="card-body" style={{borderTop: "5px solid #33AEFF", borderBottom: "5px solid #33AEFF", borderRadius: '1rem'}}>
-                  <h5 className="card-title text-muted text-uppercase text-center">3 month subscription</h5>
+                  <h5 className="card-title text-muted text-uppercase text-center">3 monthly subscription</h5>
                   <h6 className="card-price text-center">$49.99<span className="period">/month</span></h6>
                   <h6 className="card-title text-muted text-uppercase text-center"><strike>$54.99</strike><span className="period">/month</span></h6>
                   <hr />

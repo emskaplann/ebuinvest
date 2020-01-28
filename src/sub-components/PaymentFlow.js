@@ -9,7 +9,7 @@ export default function WhatIsEbuIndicator(){
     <div className="card">
       <div className="card-body">
         <b>What do you need?</b>
-        <div style={{marginTop: 5}}><b>1 -</b> Paypal Account. If you don't have one <b>you can create</b> at the checkout process.<br /></div>
+        <div style={{marginTop: 5}}><b>1 -</b> Paypal Account. If you don't have one <b>you can create</b> at the checkout process. <b><u>U.S.</u> or <u>Canada</u> based credit and debit cards can be guest subscriber via PayPal.</b><br /></div>
         <div style={{marginTop: 5}}><b>2 -</b> TradingView Account. <u>We suggest you to create before checkout process if you don't have one, <b>because our Indicator only works on TradingView.</b></u></div>
         <br />
         <b>How is The Flow?</b>
