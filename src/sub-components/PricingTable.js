@@ -49,12 +49,12 @@ class PricingTable extends React.Component {
                   <hr />
                   <ul className="fa-ul">
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>10 Days Free Trial</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Notifications</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Wolfe Wave Indicator</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Butterfly Indicator</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Gartley Indicator</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle Indicator</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Head & Shoulders Indicator</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Alerts(Notifications)</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Wolfe Wave Patterns</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Butterfly Patterns</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Gartley Patterns</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle Patterns</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Head & Shoulders Patterns</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Telegram Group with All Users</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>1/1 Support</li>
                   </ul>
@@ -65,19 +65,19 @@ class PricingTable extends React.Component {
 
             <div className="col-lg-4">
               <div className="card mb-5 mb-lg-0">
-                <div className="card-body" style={{borderTop: "5px solid #33AEFF", borderBottom: "5px solid #33AEFF", borderRadius: '1rem'}}>
+                <div className="card-body">
                   <h5 className="card-title text-muted text-uppercase text-center">3 monthly subscription</h5>
                   <h6 className="card-price text-center">$49.99<span className="period">/month</span></h6>
                   <h6 className="card-title text-muted text-uppercase text-center"><strike>$54.99</strike><span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>10 Days Free Trial</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Notifications</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Wolfe Wave Indicator</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Butterfly Indicator</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Gartley Indicator</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle Indicator</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Head & Shoulders Indicator</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Alerts(Notifications)</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Wolfe Wave Patterns</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Butterfly Patterns</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Gartley Patterns</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle Patterns</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Head & Shoulders Patterns</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Telegram Group with All Users</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>1/1 Support</li>
                   </ul>
@@ -95,12 +95,12 @@ class PricingTable extends React.Component {
                   <hr />
                   <ul className="fa-ul">
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>10 Days Free Trial</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Notifications</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Wolfe Wave Indicator</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Butterfly Indicator</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Gartley Indicator</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle Indicator</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Head & Shoulders Indicator</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Alerts(Notifications)</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Wolfe Wave Patterns</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Butterfly Patterns</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Gartley Patterns</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle Patterns</li>
+                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Head & Shoulders Patterns</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Telegram Group with All Users</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>1/1 Support</li>
                   </ul>
