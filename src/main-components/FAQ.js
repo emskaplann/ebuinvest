@@ -80,7 +80,7 @@ export default class ContactForm extends React.Component{
 
             <h5><b>12. Does this tool works on CryptoCurrency?</b></h5>
               <div style={{marginTop: 10}}>
-                <b>Yes,</b> of course. Our tool it's not limited with a type of currency or something. <u>Because, every calculation we made is based on math.</u> However, our tool works so good on <b>Bitcoin</b>. We have photos on our main page.
+                <b>Yes,</b> of course. Our tool it's not limited with a type of currency or something. <u>Because, every calculation we made is based on math.</u> And we also highly recommend our tool for <b>Bitcoin</b>.
               </div><br /><br />
 
             <h5><b>13. Do you guys share the Source Code after Subscription?</b></h5>

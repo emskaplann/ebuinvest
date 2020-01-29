@@ -99,22 +99,22 @@ export default class Screenshots extends React.Component {
               <Image style={{borderRadius: 5}} src="/screenshots/17.png" fluid={true} />
               <br />
           </div>
-          <div style={{textAlign: 'center'}}><br />
+          <div id="gartley" style={{textAlign: 'center'}}><br />
             <Image style={{borderRadius: 5}} src="/screenshots/18.png" fluid={true} />
           </div>
           <br /><br />
-            <Divider horizontal id="gartley">Gartley</Divider>
+            <Divider horizontal>Gartley</Divider>
           <br />
           <div style={{textAlign: 'center'}}>
             <Image style={{borderRadius: 5}} src="/screenshots/2.png" fluid={true} />
           <br />
           </div>
           <br />
-          <div style={{textAlign: 'center'}}>
+          <div id="butterfly" style={{textAlign: 'center'}}>
             <Image style={{borderRadius: 5}} src="/screenshots/19.png" fluid={true} />
           </div>
           <br /><br />
-            <Divider horizontal id="butterfly">Butterfly</Divider>
+            <Divider horizontal>Butterfly</Divider>
           <br />
           <div style={{textAlign: 'center'}}>
             <Image style={{borderRadius: 5}} src="/screenshots/6.png" fluid={true} />
@@ -136,11 +136,11 @@ export default class Screenshots extends React.Component {
           <br />
           </div>
           <br />
-          <div style={{textAlign: 'center'}}>
+          <div id="triangle" style={{textAlign: 'center'}}>
             <Image style={{borderRadius: 5}} src="/screenshots/16.png" fluid={true} />
           </div>
           <br /><br />
-            <Divider horizontal id="triangle">Contracting Triangle</Divider>
+            <Divider horizontal>Contracting Triangle</Divider>
           <br />
           <div style={{textAlign: 'center'}}>
             <Image style={{borderRadius: 5}} src="/screenshots/5.png" fluid={true} />
@@ -152,12 +152,12 @@ export default class Screenshots extends React.Component {
           <br />
           </div>
           <br />
-          <div style={{textAlign: 'center'}}>
+          <div id="head-and-shoulders" style={{textAlign: 'center'}}>
             <Image style={{borderRadius: 5}} src="/screenshots/7.png" fluid={true} />
           <br />
           </div>
           <br /><br />
-            <Divider horizontal id="head-and-shoulders">Head & Shoulders</Divider>
+            <Divider horizontal>Head & Shoulders</Divider>
           <br />
           <div style={{textAlign: 'center'}}>
             <Image style={{borderRadius: 5}} src="/screenshots/3.png" fluid={true} />
