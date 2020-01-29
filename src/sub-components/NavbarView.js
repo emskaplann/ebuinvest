@@ -12,7 +12,7 @@ export default class NavbarView extends React.Component {
   render(){
     return(
       <>
-        <Navbar bg="white" variant="light" sticky={window.screen.width < 769 ? "top" : false} expand="lg">
+        <Navbar bg="white" variant="light" collapseOnSelect={true} sticky={window.screen.width < 769 ? "top" : false} expand="lg">
           <Navbar.Brand style={{fontFamily: 'Rubik'}}>
             <Link to="/" style={{textDecoration: 'none'}}>
               EBU INVEST<span style={{fontFamily: "Source Sans Pro", fontWeight: "bold"}} className="text-muted"> | Trade Like a Pro.</span>
@@ -22,12 +22,24 @@ export default class NavbarView extends React.Component {
           <Navbar.Collapse variant="primary" id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Row style={{justifyContent: "space-between", paddingLeft: 15, paddingRight: 15}}>
-                <Link className="nav-link" to="/pricing" style={{textDecoration: 'none'}}>Pricing</Link>
-                <Link className="nav-link" to="/about-us" style={{textDecoration: 'none', marginLeft: 3}}>About Us</Link>
-                <Link className="nav-link" to="/screenshots" style={{textDecoration: 'none', marginLeft: 3}}>Screenshots</Link>
-                <Link className="nav-link" to="/how-to" style={{textDecoration: 'none', marginLeft: 3}}>How to?</Link>
-                <Link className="nav-link" to="/faq" style={{textDecoration: 'none', marginLeft: 3}}>FAQ</Link>
-                <Link className="nav-link" to="/reach-us" style={{textDecoration: 'none', marginLeft: 3}}>Contact Us</Link>
+                <Nav.Link as={Link} eventKey="1" to="/pricing" style={{textDecoration: 'none'}}>
+                  Pricing
+                </Nav.Link>
+                <Nav.Link as={Link} eventKey="2" to="/about-us" style={{textDecoration: 'none', marginLeft: 3}}>
+                  About Us
+                </Nav.Link>
+                <Nav.Link as={Link} eventKey="3" to="/screenshots" style={{textDecoration: 'none', marginLeft: 3}}>
+                  Screenshots
+                </Nav.Link>
+                <Nav.Link as={Link} eventKey="4" to="/how-to" style={{textDecoration: 'none', marginLeft: 3}}>
+                  How to?
+                </Nav.Link>
+                <Nav.Link as={Link} eventKey="5" to="/faq" style={{textDecoration: 'none', marginLeft: 3}}>
+                  FAQ
+                </Nav.Link>
+                <Nav.Link as={Link} eventKey="6" to="/reach-us" style={{textDecoration: 'none', marginLeft: 3}}>
+                  Contact Us
+                </Nav.Link>
               </Row>
             </Nav>
             <Nav>
