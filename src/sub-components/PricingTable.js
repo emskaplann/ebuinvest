@@ -1,7 +1,7 @@
 import React from 'react';
 import { Divider } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
-import { Modal, Row, Col } from 'react-bootstrap';
+import { Modal } from 'react-bootstrap';
 import loadjs from 'loadjs';
 
 class PricingTable extends React.Component {
@@ -118,7 +118,7 @@ class PricingTable extends React.Component {
         </Modal.Header>
         <Modal.Body>
           <div>
-            Our checkout process does not happen on our website. After you click one of these buttons you will be redirected to either PayPal's Checkout Page or Stripe's Checkout Page. After you complete the process, we will send you an automated e-mail.
+            Our checkout process does not happen on our website. After you click one of these buttons you will be redirected to either PayPal's Checkout Page or Stripe's Checkout Page. When you complete the process, we will send you an automated e-mail.
           </div>
           <span className="text-muted"><b><u>Note: You do not have to create any account if you choose</u></b></span> <b><u>Stripe.</u></b>
         </Modal.Body>
@@ -138,7 +138,7 @@ class PricingTable extends React.Component {
         </Modal.Header>
         <Modal.Body>
           <div>
-            Our checkout process does not happen on our website. After you click one of these buttons you will be redirected to either PayPal's Checkout Page or Stripe's Checkout Page. After you complete the process, we will send you an automated e-mail.
+            Our checkout process does not happen on our website. After you click one of these buttons you will be redirected to either PayPal's Checkout Page or Stripe's Checkout Page. When you complete the process, we will send you an automated e-mail.
           </div>
           <span className="text-muted"><b><u>Note: You do not have to create any account if you choose</u></b></span> <b><u>Stripe.</u></b>
         </Modal.Body>
@@ -158,7 +158,7 @@ class PricingTable extends React.Component {
         </Modal.Header>
         <Modal.Body>
           <div>
-            Our checkout process does not happen on our website. After you click one of these buttons you will be redirected to either PayPal's Checkout Page or Stripe's Checkout Page. After you complete the process, we will send you an automated e-mail.
+            Our checkout process does not happen on our website. After you click one of these buttons you will be redirected to either PayPal's Checkout Page or Stripe's Checkout Page. When you complete the process, we will send you an automated e-mail.
           </div>
           <span className="text-muted"><b><u>Note: You do not have to create any account if you choose</u></b></span> <b><u>Stripe.</u></b>
         </Modal.Body>
