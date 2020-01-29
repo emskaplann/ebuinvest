@@ -34,22 +34,29 @@ export default class ContactForm extends React.Component{
                 <b>We love everything about tigers.</b> The most important thing to know about them as a trader is that <u>every tiger is <b>unique</b> in a lot of way.</u> Point is, in trading to make money you always need to think and act different. Also you need to be agile, patient and awake. To see amazing facts about tigers visit <a href="http://www.animalplanet.com/wild-animals/tigerpedia/tiger-facts-prove-big-cats-amazing/" rel="noopener noreferrer" target="_blank"><b>here.</b></a> <u>We also donate <b>5%</b> of the income we make from here to the tigers.</u> So far, we adopted one tiger. You can see details about the tiger on <a href="https://gifts.worldwildlife.org/gift-center/onlinepremiums/onlinecertificate.aspx?bvin=a034e709-29bf-45c6-a186-6145c23dda99" rel="noopener noreferrer" target="_blank"><b>here</b></a>.
               </div><br /><br />
 
-            <h5><b>4. What happens after I subscribe with PayPal?</b></h5>
+            <h5><b>4. What happens after I subscribe with PayPal or Stripe(Credit/Debit)?</b></h5>
               <div style={{marginTop: 10}}>
-                After you complete the PayPal process, we will send you an automated mail. And this mail will contain a form link. You need to fill that form out. To fill that form out you need to have a TradingView Account.
+                After you complete the PayPal or Stripe process, we will send you an automated mail. And this mail will contain a form link. You need to fill that form out. To fill that form out you need to have a <b><u>TradingView Account.</u></b>
                 After that we'll send you inviation on TradingView, but don't worry your <u>10 Day Free Trial doesn't start until you accept the inviations.</u>
               </div><br /><br />
 
-            <h5><b>5. Do you only accept PayPal?</b></h5>
+            <h5><b>5. Do you accept every type of payment?</b></h5>
               <div style={{marginTop: 10}}>
-                <b>Yes,</b> right now we only accept PayPal, however paypal accepts guest subscription from U.S. and Canada. We are working on other payment systems.
+                <b>Yes,</b> right now we accept both PayPal Accounts and Credit/Debit cards via Stripe.
               </div><br /><br />
 
             <h5><b>6. How can I unsubscribe?</b></h5>
               <div style={{marginTop: 10}}>
-                For every type of unsubscribe, you can simply get all the information you need from PayPal. Please click <a href="https://www.paypal.com/li/smarthelp/article/how-do-i-cancel-a-recurring-payment,-subscription,-or-automatic-billing-agreement-i-have-with-a-merchant-faq1067" target="_blank" rel="noopener noreferrer"><b>here.</b></a><br />
-              <span className="text-muted"><b><u>Note: This is an PayPal issue but to be 100% sure about unsubscribing you need to unsubscribe 1 day before the payment due.</u></b></span>
-             </div><br /><br />
+                <h6><b>PayPal Subscriptions</b></h6>
+                You can simply get all the information you need from PayPal. Please click <a href="https://www.paypal.com/li/smarthelp/article/how-do-i-cancel-a-recurring-payment,-subscription,-or-automatic-billing-agreement-i-have-with-a-merchant-faq1067" target="_blank" rel="noopener noreferrer"><b>here.</b></a>
+                <br />
+                <span className="text-muted"><b><u>Note: This is an PayPal issue but to be 100% sure about unsubscribing you need to unsubscribe 1 day before the payment due.</u></b></span>
+                <br /><br />
+                <h6><b>Stripe(Credit/Debit) Subscriptions</b></h6>
+                In order to cancel your Stripe(Credit/Debit) Subscription, you just need to send us an mail that says, "I want to unsubscribe." or a similar phrase.
+                <br /><br />
+                For any further question(s), please contact us from <b><Link to="/reach-us">here.</Link></b>
+             </div><br />
 
             <h5><b>7. Why do you have free trial?</b></h5>
               <div style={{marginTop: 10}}>
@@ -75,7 +82,8 @@ export default class ContactForm extends React.Component{
 
             <h5><b>11. Do you planning to improve the tool?</b></h5>
               <div style={{marginTop: 10}}>
-                <b>Yes,</b> after we see this power, we can't just stay in our place, right? So, one of our biggest goal is to implement <u>Machine Learning Algorithms</u> to the tool. If we can implement without a problem, tool will be able to classify patterns, so, It'll label risky patterns.
+                <b>Yes,</b> after we see this power, we can't just stay in our place, right? So, one of our biggest goal is to implement <b><u>Machine Learning Algorithms</u></b> to the tool. If we can implement without a problem, tool will be able to classify patterns, so, It'll label risky patterns. That being said, with a classifier like that we can trust more on auto-orders. But we need time.<br />
+                <span className="text-muted"><b><u>Note: You are more than welcome for suggestions about tool.</u></b></span>
               </div><br /><br />
 
             <h5><b>12. Does this tool works on CryptoCurrency?</b></h5>
