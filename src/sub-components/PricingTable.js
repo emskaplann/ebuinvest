@@ -81,11 +81,7 @@ class PricingTable extends React.Component {
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Telegram Group with All Users</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>1/1 Support</li>
                   </ul>
-                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-                    <input type="hidden" name="cmd" value="_s-xclick" />
-                    <input type="hidden" name="hosted_button_id" value="PKZ7EZYAF9722" />
-                    <button type="input" className="btn btn-block btn-primary text-uppercase" name="submit">Try Free</button>
-                  </form>
+                  <button className="btn btn-block btn-primary text-uppercase" onClick={() => this.setState({modal3Monthly: true})}>Try Free</button>
                 </div>
               </div>
             </div>
@@ -108,11 +104,7 @@ class PricingTable extends React.Component {
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Telegram Group with All Users</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>1/1 Support</li>
                   </ul>
-                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-                    <input type="hidden" name="cmd" value="_s-xclick" />
-                    <input type="hidden" name="hosted_button_id" value="AEF5UPCKKAFHJ" />
-                    <button type="input" className="btn btn-block btn-primary text-uppercase" name="submit">Try Free</button>
-                  </form>
+                  <button className="btn btn-block btn-primary text-uppercase" onClick={() => this.setState({modalYearly: true})}>Try Free</button>
                 </div>
               </div>
             </div>
@@ -121,60 +113,63 @@ class PricingTable extends React.Component {
       </section>
 
       <Modal centered show={this.state.modalMonthly} onHide={() => this.setState({modalMonthly: false})}>
-        <Modal.Header>
-          <h6><b>Start Your Free Trial with 2 Options!</b></h6>
+        <Modal.Header closeButton>
+          <h5><b>EBU Indicator - Monthly Plan - $54.99/month</b></h5>
         </Modal.Header>
         <Modal.Body>
-          <Row style={{justifyContent: 'center'}}>
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-              <input type="hidden" name="cmd" value="_s-xclick" />
-              <input type="hidden" name="hosted_button_id" value="L297P6HH7JG3J" />
-              <button type="submit" className="btn btn-block btn-primary" name="submit">PayPal Account</button>
-            </form>
-          </Row>
-            <Divider horizontal>or</Divider>
-          <Row style={{justifyContent: 'center'}}>
-            <button className="btn btn-primary" onClick={() => this.monthly()}>Credit or Debit Card</button>
-          </Row>
+          <div>
+            Our checkout process does not happen on our website. After you click one of these buttons you will be redirected to either PayPal's Checkout Page or Stripe's Checkout Page.
+          </div>
+          <span className="text-muted"><b><u>Note: You do not have to create any account if you choose</u></b></span> <b><u>Stripe.</u></b>
         </Modal.Body>
+        <Modal.Footer>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input type="hidden" name="hosted_button_id" value="L297P6HH7JG3J" />
+            <button type="submit" className="btn btn-block btn-primary" name="submit">PayPal Account</button>
+          </form>
+          <button className="btn btn-primary" onClick={() => this.monthly()}>Credit or Debit Card(Stripe)</button>
+        </Modal.Footer>
       </Modal>
 
-      <Modal centered show={this.state.modal3Monthly} onHide={() => this.setState({modalMonthly: false})}>
-        <Modal.Header>
-          <h6><b>Start Your Free Trial with 2 Options!</b></h6>
+      <Modal centered show={this.state.modal3Monthly} onHide={() => this.setState({modal3Monthly: false})}>
+        <Modal.Header closeButton>
+          <h5><b>EBU Indicator - 3 Monthly Plan - $49.99/month</b></h5>
         </Modal.Header>
         <Modal.Body>
-          <Row style={{justifyContent: 'center'}}>
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-              <input type="hidden" name="cmd" value="_s-xclick" />
-              <input type="hidden" name="hosted_button_id" value="L297P6HH7JG3J" />
-              <button type="submit" className="btn btn-block btn-primary" name="submit">PayPal Account</button>
-            </form>
-          </Row>
-            <Divider horizontal>or</Divider>
-          <Row style={{justifyContent: 'center'}}>
-            <button className="btn btn-primary" onClick={() => this.threemonthly()}>Credit or Debit Card</button>
-          </Row>
+          <div>
+            Our checkout process does not happen on our website. After you click one of these buttons you will be redirected to either PayPal's Checkout Page or Stripe's Checkout Page.
+          </div>
+          <span className="text-muted"><b><u>Note: You do not have to create any account if you choose</u></b></span> <b><u>Stripe.</u></b>
         </Modal.Body>
+        <Modal.Footer>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input type="hidden" name="hosted_button_id" value="PKZ7EZYAF9722" />
+            <button type="submit" className="btn btn-block btn-primary" name="submit">PayPal Account</button>
+          </form>
+          <button className="btn btn-primary" onClick={() => this.monthly()}>Credit or Debit Card(Stripe)</button>
+        </Modal.Footer>
       </Modal>
 
-      <Modal centered show={this.state.modalYearly} onHide={() => this.setState({modalMonthly: false})}>
-        <Modal.Header>
-          <h6><b>Start Your Free Trial with 2 Options!</b></h6>
+      <Modal centered show={this.state.modalYearly} onHide={() => this.setState({modalYearly: false})}>
+        <Modal.Header closeButton>
+          <h5><b>EBU Indicator - Yearly Plan - $39.99/month</b></h5>
         </Modal.Header>
         <Modal.Body>
-          <Row style={{justifyContent: 'center'}}>
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-              <input type="hidden" name="cmd" value="_s-xclick" />
-              <input type="hidden" name="hosted_button_id" value="L297P6HH7JG3J" />
-              <button type="submit" className="btn btn-block btn-primary" name="submit">PayPal Account</button>
-            </form>
-          </Row>
-            <Divider horizontal>or</Divider>
-          <Row style={{justifyContent: 'center'}}>
-            <button className="btn btn-primary" onClick={() => this.yearly()}>Credit or Debit Card</button>
-          </Row>
+          <div>
+            Our checkout process does not happen on our website. After you click one of these buttons you will be redirected to either PayPal's Checkout Page or Stripe's Checkout Page.
+          </div>
+          <span className="text-muted"><b><u>Note: You do not have to create any account if you choose</u></b></span> <b><u>Stripe.</u></b>
         </Modal.Body>
+        <Modal.Footer>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input type="hidden" name="hosted_button_id" value="AEF5UPCKKAFHJ" />
+            <button type="submit" className="btn btn-block btn-primary" name="submit">PayPal Account</button>
+          </form>
+          <button className="btn btn-primary" onClick={() => this.monthly()}>Credit or Debit Card(Stripe)</button>
+        </Modal.Footer>
       </Modal>
       </>
     )
