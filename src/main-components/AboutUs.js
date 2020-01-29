@@ -30,6 +30,8 @@ export default class AboutUs extends React.Component {
                 <br />
                 Software Engineer | Trader
                 <br />
+                Favorite Investment Tool: <b>Warrant</b>
+                <br />
                 <span className="text-muted">New York, US</span>
                 <br /><br />
                 <SocialIcon url="https://www.linkedin.com/in/emirhan-kaplan/" />
@@ -45,6 +47,8 @@ export default class AboutUs extends React.Component {
                 <b>Alperen Birbey Sonmez</b>
                 <br />
                 Translator | Student | Trader
+                <br />
+                Favorite Investment Tool: <b>Warrant</b>
                 <br />
                 <span className="text-muted">Istanbul, Turkey</span>
                 <br /><br />
