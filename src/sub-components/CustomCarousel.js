@@ -15,6 +15,24 @@ function populateCarousel(){
       </Carousel.Item>
     )
   }
+  arr.push(
+    <Carousel.Item key={22}>
+      <img
+        className="d-block w-100"
+        src="screenshots/22.png"
+        alt="First slide"
+      />
+    </Carousel.Item>
+  )
+  arr.push(
+    <Carousel.Item key={24}>
+      <img
+        className="d-block w-100"
+        src="screenshots/24.png"
+        alt="First slide"
+      />
+    </Carousel.Item>
+  )
   return arr
 }
 
