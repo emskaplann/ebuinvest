@@ -151,7 +151,7 @@ class PricingTable extends React.Component {
             <input type="hidden" name="hosted_button_id" value="PKZ7EZYAF9722" />
             <button type="submit" className="btn btn-block btn-primary" name="submit">PayPal Account</button>
           </form>
-          <button className="btn btn-primary" onClick={() => this.monthly()}>Credit or Debit Card(Stripe)</button>
+          <button className="btn btn-primary" onClick={() => this.threeMonthly()}>Credit or Debit Card(Stripe)</button>
         </Modal.Footer>
       </Modal>
 
@@ -171,7 +171,7 @@ class PricingTable extends React.Component {
             <input type="hidden" name="hosted_button_id" value="AEF5UPCKKAFHJ" />
             <button type="submit" className="btn btn-block btn-primary" name="submit">PayPal Account</button>
           </form>
-          <button className="btn btn-primary" onClick={() => this.monthly()}>Credit or Debit Card(Stripe)</button>
+          <button className="btn btn-primary" onClick={() => this.yearly()}>Credit or Debit Card(Stripe)</button>
         </Modal.Footer>
       </Modal>
       </>
