@@ -1,7 +1,8 @@
 import React from 'react';
 import Confetti from 'react-dom-confetti';
-import { Container } from 'react-bootstrap'
+import { Container, Image, Row } from 'react-bootstrap'
 import { Loader, Dimmer } from 'semantic-ui-react'
+import { Link } from 'react-router-dom';
 
 const config = {
   angle: 90,
@@ -18,40 +19,16 @@ const config = {
 
 export default class PaymentSuccessfulPage extends React.Component {
   state = {
-    subDetails: {},
     confettiPop: false
   }
 
   componentDidMount(){
-    const { subId } = this.props.match.params
-    fetch("https://api.sandbox.paypal.com/v1/oauth2/token", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
-        'Authorization': 'Basic '+btoa('AbkYjaXRnUof-33dXXMuHzz6SS3RHH-_QFDHzZSlPwZgBWiNSPRZznlGIJ8dwC2nsRRLqOs8UONfzqUV:EG6TVu5x6E01gPZEjFzpsI0XHxraZMgw3mWFqrSyl-Yxm2muOgn-aL_IGpkVcm1yod2B1sQwhttkEnBG'),
-      }, body: "grant_type=client_credentials"
-    })
-    .then(r => r.json())
-    .then(({ access_token }) => {
-      console.log(access_token)
-      fetch(`https://api.sandbox.paypal.com/v1/billing/subscriptions/${subId}`, {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-          'Authorization': 'Bearer ' + access_token
-        }
-      })
-      .then(r => r.json())
-      .then(subDetails => {
-        console.log(subDetails)
-        if(subDetails){
-          this.setState({subDetails: subDetails.subscriber, confettiPop: true})
-        } else {
-          console.log("No subscription found :(")
-        }
-      })
-    })
+    setTimeout(() => (this.setState({confettiPop: true})), 10)
   }
+
+  // txn_key=18F112AF4BE6F25_8745411C4DFF58_8FED8E8CD417BBC1F23FD5D3349_B3
+
+
 
   render(){
     return(
@@ -60,13 +37,25 @@ export default class PaymentSuccessfulPage extends React.Component {
         <Loader active={!this.state.confettiPop} />
       </Dimmer>
       <Container style={{marginTop: 20}}>
-        <h1 style={{textAlign: 'center', fontWeight: 'bold'}}>Congrats, {this.state.confettiPop ? this.state.subDetails.name.given_name : "loading..." }! Your <u>free trial</u> has started!</h1>
-        <h5 style={{textAlign: 'center', fontWeight: 'bold'}}>We sent a e-mail to your address <span style={{color: '#007bff'}}>{this.state.confettiPop ? this.state.subDetails.email_address: "loading..." }</span>. Please check your mail for further instructions.</h5>
-        <h6 style={{textAlign: 'center', fontWeight: 'bold'}}>Also PayPal sent a e-mail for your transaction details. And if you want to cancel your subscription or you want to check your status with the subscription please go into your PayPal account.</h6>
-    </Container>
-      <div style={{display: 'flex', width: '50%', margin: '0 auto', alignItems: 'center', top: 0}}>
-        <Confetti active={this.state.confettiPop} config={config}/>
-      </div>
+        <div className="card">
+          <div className="card-body" style={{}}>
+            <h2 style={{textAlign: 'center', fontWeight: 'bold'}}>Congrats, your subscription is on our records!</h2><br />
+            <h4 style={{textAlign: 'center', fontWeight: 'bold'}}>We sent an e-mail to your given address. Please check your inbox for further instructions.</h4><br />
+            <h5 style={{textAlign: 'center', fontWeight: 'bold'}}>In case you have a problem such as you didn't get the mail or you don't have access to your given mail address or something else. Please contact us, so we can help you.</h5>
+            <Row style={{justifyContent: 'space-around'}}>
+              <Link to="/reach-us"><b>Contact Us</b></Link>
+              <Link to="/faq"><b>Frequently Asked Questions</b></Link>
+            </Row>
+            <div style={{display: 'flex', width: '50%', margin: '0 auto', alignItems: 'center', top: 0}}>
+              <Confetti active={this.state.confettiPop} config={config}/>
+            </div>
+        </div>
+        </div>
+        <br />
+        <Image src="/tgroar.jpeg" fluid={true} style={{borderRadius: 5}} /><br />
+      </Container>
+      <br />
+      <br />
     </>
     )
   }

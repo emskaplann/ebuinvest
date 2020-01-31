@@ -49,7 +49,7 @@ class App extends React.Component {
            <Route exact path='/faq' component={FAQ} key='FAQ' />
            <Route exact path='/screenshots' component={Screenshots} key='FAQ' />
            <Route exact path='/become-an-affiliate' component={BecomeAnAffiliate} key='become-an-affiliate' />
-           <Route path='/payment-successful/:subId' component={PaymentSuccessfulPage} key='index' />
+           <Route exact path='/payment-successful' component={PaymentSuccessfulPage} key='index' />
         </Switch>
          <ScrollUpButton style={{marginBottom: 30}}/>
          </>
