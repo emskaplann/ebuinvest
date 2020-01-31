@@ -44,7 +44,9 @@ export default class PaymentSuccessfulPage extends React.Component {
             <h4 style={{textAlign: 'center', fontWeight: 'bold'}}>We sent an e-mail to your given address. Please check your inbox for further instructions.</h4><br />
             <h5 style={{textAlign: 'center', fontWeight: 'bold'}}>In case you have a problem such as you didn't get the mail or you don't have access to your given mail address or something else. Please contact us, so we can help you.</h5>
             <Row style={{justifyContent: 'space-around'}}>
+              <Link to="/how-to"><b>Check out Our Guides</b></Link>
               <Link to="/reach-us"><b>Contact Us</b></Link>
+              <Link to="/"><b>Main Page</b></Link>
               <Link to="/faq"><b>Frequently Asked Questions</b></Link>
             </Row>
             <div style={{display: 'flex', width: '50%', margin: '0 auto', alignItems: 'center', top: 0}}>
