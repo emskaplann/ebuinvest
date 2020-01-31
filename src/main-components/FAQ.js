@@ -48,12 +48,12 @@ export default class ContactForm extends React.Component{
             <h5><b>6. How can I unsubscribe?</b></h5>
               <div style={{marginTop: 10}}>
                 <h6><b>PayPal Subscriptions</b></h6>
-                You can simply get all the information you need from PayPal. Please click <a href="https://www.paypal.com/li/smarthelp/article/how-do-i-cancel-a-recurring-payment,-subscription,-or-automatic-billing-agreement-i-have-with-a-merchant-faq1067" target="_blank" rel="noopener noreferrer"><b>here.</b></a>
+                You can simply get all the information you need from PayPal. Please click <a href="paypal.com/us/smarthelp/article/how-do-i-cancel-a-billing-agreement,-automatic-recurring-payment-or-subscription-on-paypal-faq2254" target="_blank" rel="noopener noreferrer"><b>here.</b></a>
                 <br />
-                <span className="text-muted"><b><u>Note: This is an PayPal issue but to be 100% sure about unsubscribing you need to unsubscribe 1 day before the payment due.</u></b></span>
+                <span className="text-muted"><b><u>Note: This is an PayPal issue but if you don't cancel your subscription 1 day before the payment due, with high chance your money will be transfered to us. In this case you just need to contact us, so we can refund. We don't have any refund policy, if you simply ask us, we will get it done.</u></b></span>
                 <br /><br />
                 <h6><b>Stripe(Credit/Debit) Subscriptions</b></h6>
-                In order to cancel your Stripe(Credit/Debit) Subscription, you just need to send us an mail that says, "I want to unsubscribe." or a similar phrase.
+                In order to cancel your Stripe(Credit/Debit) Subscription, you just need to send us a mail that says, "I want to unsubscribe." or a similar phrase.
                 <br /><br />
                 For any further question(s), please contact us from <b><Link to="/reach-us">here.</Link></b>
              </div><br />

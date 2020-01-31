@@ -70,9 +70,9 @@ export default class Screenshots extends React.Component {
                 <a id="wayline" href="#the-wayline" className="nav-link">The Way Line</a>
               </Row>
             <br />
-            <span onClick={this.props.history.goBack}><b>{"< Go back "}</b></span>| <Link to="/" style={{textDecoration: 'none', color: "black"}}><b>{"< Go to Main Page"}</b></Link>
+            <span id="wolfe-wave" onClick={this.props.history.goBack}><b>{"< Go back "}</b></span>| <Link to="/" style={{textDecoration: 'none', color: "black"}}><b>{"< Go to Main Page"}</b></Link>
             <br />
-            <Divider horizontal id="wolfe-wave">Wolfe Wave</Divider>
+            <Divider horizontal>Wolfe Wave</Divider>
             <br />
             <div style={{textAlign: 'center'}}>
               <Image style={{borderRadius: 5}} src="/screenshots/1.png" fluid={true} />
@@ -106,8 +106,9 @@ export default class Screenshots extends React.Component {
               <Image style={{borderRadius: 5}} src="/screenshots/17.png" fluid={true} />
               <br />
           </div>
-          <div id="gartley" style={{textAlign: 'center'}}><br />
+          <div style={{textAlign: 'center'}}><br />
             <Image style={{borderRadius: 5}} src="/screenshots/18.png" fluid={true} />
+            <span id="gartley"></span>
           </div>
           <br /><br />
             <Divider horizontal>Gartley</Divider>
@@ -117,8 +118,9 @@ export default class Screenshots extends React.Component {
           <br />
           </div>
           <br />
-          <div id="butterfly" style={{textAlign: 'center'}}>
+          <div style={{textAlign: 'center'}}>
             <Image style={{borderRadius: 5}} src="/screenshots/19.png" fluid={true} />
+            <span id="butterfly"></span>
           </div>
           <br /><br />
             <Divider horizontal>Butterfly</Divider>
@@ -143,8 +145,9 @@ export default class Screenshots extends React.Component {
           <br />
           </div>
           <br />
-          <div id="triangle" style={{textAlign: 'center'}}>
+          <div style={{textAlign: 'center'}}>
             <Image style={{borderRadius: 5}} src="/screenshots/16.png" fluid={true} />
+            <span id="triangle"></span>
           </div>
           <br /><br />
             <Divider horizontal>Contracting Triangle</Divider>
@@ -159,8 +162,9 @@ export default class Screenshots extends React.Component {
           <br />
           </div>
           <br />
-          <div id="head-and-shoulders" style={{textAlign: 'center'}}>
+          <div style={{textAlign: 'center'}}>
             <Image style={{borderRadius: 5}} src="/screenshots/7.png" fluid={true} />
+            <span id="head-and-shoulders"></span>
           <br />
           </div>
           <br /><br />
@@ -186,8 +190,9 @@ export default class Screenshots extends React.Component {
           <br />
           </div>
           <br />
-          <div id="the-wayline" style={{textAlign: 'center'}}>
+          <div style={{textAlign: 'center'}}>
             <Image style={{borderRadius: 5}} src="/screenshots/13.png" fluid={true} />
+            <span id="the-wayline"></span>
           <br />
           </div>
           <br /><br />
