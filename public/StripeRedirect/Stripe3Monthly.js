@@ -6,7 +6,7 @@ stripe.redirectToCheckout({
     plan: 'plan_GdMFUmhEaOt8aU',
     quantity: 1,
   }],
-  successUrl: 'https://ebuinvest.com/',
+  successUrl: 'https://ebuinvest.com/#/subscription-successful',
   cancelUrl: 'https://ebuinvest.com/',
 }).then(function (result) {
   alert(`Ooops! Something went wrong. ${result.error.message}`)

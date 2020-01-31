@@ -23,7 +23,8 @@ export default class PaymentSuccessfulPage extends React.Component {
   }
 
   componentDidMount(){
-    setTimeout(() => (this.setState({confettiPop: true})), 10)
+    setTimeout(() => (this.setState({confettiPop: true})), 1000)
+    window.document.title = "EBU INVEST | Subscription Successful"
   }
 
   // txn_key=18F112AF4BE6F25_8745411C4DFF58_8FED8E8CD417BBC1F23FD5D3349_B3
