@@ -35,7 +35,7 @@ class PricingTable extends React.Component {
           <Divider style={{color: 'white'}} horizontal>EBU Indicator Pricing</Divider>
           <div className="card">
             <div className="card-body">
-              We have <b>3 different subscription options according the different budgets.</b> For companies who needs to subscribe <b>for multiple accounts we offer a special price with discount and <u>30 Day Free Trial.</u></b>  If you have any further questions about pricing or you want a get a price for multiple accounts please contact us from <Link to="/reach-us"><b>here.</b></Link>
+              We have <b>3 different subscription options for different budgets.</b> For companies who would need to subscribe <b>to multiple accounts, we offer a special price with a discount and a <u>30 Day Free Trial.</u></b>  If you have any further questions about pricing or would like to get a price for multiple accounts please contact us from <Link to="/reach-us"><b>here.</b></Link>
             </div>
           </div>
           <br />
@@ -123,7 +123,7 @@ class PricingTable extends React.Component {
           <div>
             Our checkout process does not happen on our website. After you click one of these buttons you will be redirected to either PayPal's Checkout Page or Stripe's Checkout Page. When you complete the process, we will send you an automated e-mail.
           </div>
-          <span className="text-muted"><b><u>Note: You do not have to create any account if you choose</u></b></span> <b><u>Stripe.</u></b>
+          <span className="text-muted"><b><u>Note: You do not have to create an account if you choose</u></b></span> <b><u>Stripe.</u></b>
         </Modal.Body>
         <Modal.Footer>
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -143,7 +143,7 @@ class PricingTable extends React.Component {
           <div>
             Our checkout process does not happen on our website. After you click one of these buttons you will be redirected to either PayPal's Checkout Page or Stripe's Checkout Page. When you complete the process, we will send you an automated e-mail.
           </div>
-          <span className="text-muted"><b><u>Note: You do not have to create any account if you choose</u></b></span> <b><u>Stripe.</u></b>
+          <span className="text-muted"><b><u>Note: You do not have to create an account if you choose</u></b></span> <b><u>Stripe.</u></b>
         </Modal.Body>
         <Modal.Footer>
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -163,7 +163,7 @@ class PricingTable extends React.Component {
           <div>
             Our checkout process does not happen on our website. After you click one of these buttons you will be redirected to either PayPal's Checkout Page or Stripe's Checkout Page. When you complete the process, we will send you an automated e-mail.
           </div>
-          <span className="text-muted"><b><u>Note: You do not have to create any account if you choose</u></b></span> <b><u>Stripe.</u></b>
+          <span className="text-muted"><b><u>Note: You do not have to create an account if you choose</u></b></span> <b><u>Stripe.</u></b>
         </Modal.Body>
         <Modal.Footer>
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
