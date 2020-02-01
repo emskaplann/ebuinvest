@@ -36,7 +36,7 @@ export default class ContactForm extends React.Component{
 
             <h5><b>4. What happens after I subscribe with PayPal or Stripe(Credit/Debit)?</b></h5>
               <div style={{marginTop: 10}}>
-                After you complete the PayPal or Stripe process, we will send you an automated mail. And this mail will contain a form link. You need to fill that form out. To fill that form out you need to have a <b><u>TradingView Account.</u></b>
+                After you complete the PayPal or Stripe process, we will send you an automated mail. And this mail will contain a form link. You need to fill that form out. To fill that form out you need to have a <b><u>TradingView Account. </u></b>
               After that we'll send you inviation on TradingView, in the meantime you can checkout our <Link to="/how-to"><b>guides.</b></Link>
               </div><br /><br />
 
