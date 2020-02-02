@@ -15,11 +15,11 @@ export default class ContactForm extends React.Component{
         <div className="card">
           <div className="card-body">
             <h3><b>How to Contact Us?</b></h3>
-            You can simply press<a target="_blank" rel="noopener noreferrer" href="mailto:contact@ebuinvest.com?subject=Support - Your Subject" style={{textDecoration: 'none'}}> <b>here</b></a> to compose a mail to us.
-            Or you can compose yourself, to this mail address <b>contact@ebuinvest.com.</b> Or you can try the chat box you see on the left down corner.<br/>
+            You can simply press<a target="_blank" rel="noopener noreferrer" href="mailto:contact@ebuinvest.com?subject=Support - Your Subject" style={{textDecoration: 'none'}}> <b>here</b></a> to compose an e-mail to us.
+            Or you can compose yourself, to this e-mail address <b>contact@ebuinvest.com.</b> Or you can try the chat box you see on the lower left corner.<br/>
           <div style={{marginTop: 10}}><a href="https://t.me/joinchat/NeUKX1EKpn9Bk03V2JldlA" rel="noopener noreferrer" target="_blank"><b>Join our Free Telegram Group for daily insights and to get your questions answered in light speed.</b></a></div>
           <div style={{marginTop: 10}}>We don't present a contact form on our website because of the spammers.</div>
-          <div className="text-muted" style={{marginTop: 10}}><b><u>Note: Please send a mail for inquires about multiple account pricing.</u></b></div><br /><br />
+          <div className="text-muted" style={{marginTop: 10}}><b><u>Note: Please send an e-mail for inquires about multiple account pricing.</u></b></div><br /><br />
 
           <span onClick={this.props.history.goBack}><b>{"< Go back "}</b></span>| <Link to="/" style={{textDecoration: 'none', color: "black"}}><b>{"< Go to Main Page"}</b></Link>
         </div>
