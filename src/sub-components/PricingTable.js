@@ -48,7 +48,6 @@ class PricingTable extends React.Component {
                   <h6 className="card-title text-muted text-uppercase text-center"><strike>$59.99</strike><span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>10 Days Free Trial</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Alerts(Notifications)</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Wolfe Wave Patterns</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Butterfly Patterns</li>
@@ -72,7 +71,6 @@ class PricingTable extends React.Component {
                   <h6 className="card-title text-muted text-uppercase text-center"><strike>$54.99</strike><span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>10 Days Free Trial</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Alerts(Notifications)</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Wolfe Wave Patterns</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Butterfly Patterns</li>
@@ -96,7 +94,6 @@ class PricingTable extends React.Component {
                   <h6 className="card-title text-muted text-uppercase text-center"><strike>$44.99</strike><span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>10 Days Free Trial</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Alerts(Notifications)</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Wolfe Wave Patterns</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Butterfly Patterns</li>
