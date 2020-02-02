@@ -120,7 +120,7 @@ class PricingTable extends React.Component {
         </Modal.Header>
         <Modal.Body>
           <div>
-            Our checkout process does not happen on our website. After you click one of these buttons you will be redirected to either PayPal's Checkout Page or Stripe's Checkout Page. When you complete the process, we will send you an automated e-mail.
+            Our checkout process does not happen on our website. After you click one of these buttons you will be redirected to either PayPal's Checkout Page or Stripe's Checkout Page. When you complete the process, we will send you an automated e-mail. See more details on the <b>Payment Flow</b> section located below the pricing table.
           </div>
           <span className="text-muted"><b><u>Note: You do not have to create an account if you choose</u></b></span> <b><u>Stripe.</u></b>
         </Modal.Body>
@@ -140,7 +140,7 @@ class PricingTable extends React.Component {
         </Modal.Header>
         <Modal.Body>
           <div>
-            Our checkout process does not happen on our website. After you click one of these buttons you will be redirected to either PayPal's Checkout Page or Stripe's Checkout Page. When you complete the process, we will send you an automated e-mail.
+            Our checkout process does not happen on our website. After you click one of these buttons you will be redirected to either PayPal's Checkout Page or Stripe's Checkout Page. When you complete the process, we will send you an automated e-mail. See more details on the <b>Payment Flow</b> section located below the pricing table.
           </div>
           <span className="text-muted"><b><u>Note: You do not have to create an account if you choose</u></b></span> <b><u>Stripe.</u></b>
         </Modal.Body>
@@ -160,7 +160,7 @@ class PricingTable extends React.Component {
         </Modal.Header>
         <Modal.Body>
           <div>
-            Our checkout process does not happen on our website. After you click one of these buttons you will be redirected to either PayPal's Checkout Page or Stripe's Checkout Page. When you complete the process, we will send you an automated e-mail.
+            Our checkout process does not happen on our website. After you click one of these buttons you will be redirected to either PayPal's Checkout Page or Stripe's Checkout Page. When you complete the process, we will send you an automated e-mail. See more details on the <b>Payment Flow</b> section located below the pricing table.
           </div>
           <span className="text-muted"><b><u>Note: You do not have to create an account if you choose</u></b></span> <b><u>Stripe.</u></b>
         </Modal.Body>
