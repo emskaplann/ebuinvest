@@ -26,11 +26,11 @@ export default class HowTo extends React.Component {
             <br /><br />
 
             <h4><b>2. How to take actions(buy or sell) based on our Indicator?</b></h4>
-            Our setup and actions guide is in the same guide. Please click <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@snmzbrby/ebu-indicator-guide-b9bfe60916a3"><b>here</b></a> to see the guide.
+            Our setup and action guide is in the same guide. Please click <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@snmzbrby/ebu-indicator-guide-b9bfe60916a3"><b>here</b></a> to see the guide.
             <br /><br />
 
             <h4><b>3. How to get motivated?</b></h4>
-            Right now we are creating a playlist for motivation. The link is here but it's not big right now :).<br />
+            Right now we are creating a playlist for motivation. We still don't have any good source to share right now but we'll update here ASAP.<br />
             <span className="text-muted"><b>Note:</b> We don't create or make these videos, it's just sources we found helpful.</span>
             <br /><br />
 
