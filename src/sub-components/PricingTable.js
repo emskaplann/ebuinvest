@@ -1,7 +1,7 @@
 import React from 'react';
 import { Divider } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
-import { Modal } from 'react-bootstrap';
+import { Modal, Row } from 'react-bootstrap';
 import loadjs from 'loadjs';
 
 class PricingTable extends React.Component {
@@ -38,6 +38,8 @@ class PricingTable extends React.Component {
               We have <b>3 different subscription options for different budgets.</b> For companies who would need to subscribe <b>to multiple accounts, we offer a special price with a discount and a <u>30 Day Free Trial.</u></b>  If you have any further questions about pricing or would like to get a price for multiple accounts please contact us from <Link to="/reach-us"><b>here.</b></Link>
             </div>
           </div>
+          <br />
+          <h2 style={{fontWeight: 900, textAlign: 'center', color: "#ffffff"}}>10 Day Free Trial</h2>
           <br />
           <div className="row">
             <div className="col-lg-4">
