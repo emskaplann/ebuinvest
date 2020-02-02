@@ -20,8 +20,8 @@ export default class ContactForm extends React.Component{
             <br />
             <h5><b>1. Why do you sell this tool if you can make money with it?</b></h5>
               <div style={{marginTop: 10}}>
-                One of us is a student and one of us graduated this year, as you can guess we don't have a big capital :) And this tool does not make money by itself, it still needs a human to take action.
-                However, we made a decent amount of money on our scale :) And we are continuing to do so. <u>To answer your question, we sell it in order to create a passive income.</u>
+                One of us is a student and one of us graduated this year, as you can guess we don't have a big capital. And this tool does not make money by itself, it still needs a human to take action.
+                However, we made a decent amount of money on our scale. And we are continuing to do so. <u>To answer your question, we sell it in order to create a passive income.</u>
               </div><br /><br />
 
             <h5><b>2. Does this tool sell and buy automatically?</b></h5>
@@ -65,7 +65,7 @@ export default class ContactForm extends React.Component{
 
             <h5><b>8. Why Telegram?</b></h5>
               <div style={{marginTop: 10}}>
-                We don't know either :) The great advantage of Telegram is that it's not the default chat tool on phones, so, when you go into telegram you only see things about finance. Besides that, it's fast, secure and convenient. Like we mentioned on the previous question, giving investment advice to people without a license can be a little bit of a problem in some countries.
+                We don't know either. The great advantage of Telegram is that it's not the default chat tool on phones, so, when you go into telegram you only see things about finance. Besides that, it's fast, secure and convenient. Like we mentioned on the previous question, giving investment advice to people without a license can be a little bit of a problem in some countries.
               </div><br /><br />
 
             <h5><b>9. How does alerts(notifications) work?</b></h5>
