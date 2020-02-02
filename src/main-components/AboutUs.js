@@ -20,7 +20,7 @@ export default class AboutUs extends React.Component {
         <div className="card">
           <div className="card-body">
             <h3><b>About Us</b></h3>
-            We are two friends who have been trading for about 4 years. We developed this software to simplify our own business by automating the analysis methods we use. After the development process of this software we realized how powerful and useful it was, and we decided to share it so that other people could benefit form it.
+            We are two friends who have been trading for about 4 years. We developed this software to simplify our own business by automating the analysis methods we use. After the development process of this software we realized how powerful and useful it was, therefore we decided to share it so that people like you could benefit from it.
             <br /><br /><br />
             <Row>
               <Col xs={12} sm={12} md={5} lg={5} style={{textAlign: 'center'}}>
