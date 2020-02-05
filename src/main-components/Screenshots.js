@@ -44,12 +44,6 @@ export default class Screenshots extends React.Component {
           }, 500);
           return false;
       });
-      $('#wayline').click(function(){
-            $('html, body').animate({
-                scrollTop: $( $(this).attr('href') ).offset().top
-            }, 500);
-            return false;
-        });
   }
 
   render(){
@@ -67,7 +61,6 @@ export default class Screenshots extends React.Component {
                 <a id="butter" href="#butterfly" className="nav-link">Butterfly</a>
                 <a id="tri" href="#triangle" className="nav-link">Contracting Triangle</a>
                 <a id="head" href="#head-and-shoulders" className="nav-link">Head & Shoulders</a>
-                <a id="wayline" href="#the-wayline" className="nav-link">The Way Line</a>
               </Row>
             <br />
             <span id="wolfe-wave" onClick={this.props.history.goBack}><b>{"< Go back "}</b></span>| <Link to="/" style={{textDecoration: 'none', color: "black"}}><b>{"< Go to Main Page"}</b></Link>
@@ -195,38 +188,7 @@ export default class Screenshots extends React.Component {
             <span id="the-wayline"></span>
           <br />
           </div>
-          <br /><br />
-            <Divider horizontal>The Way Line</Divider>
-          <br />
-          <div style={{textAlign: 'center'}}>
-            <Image style={{borderRadius: 5}} src="/screenshots/20.png" fluid={true} />
-          <br />
-          </div>
-          <br />
-          <div style={{textAlign: 'center'}}>
-            <Image style={{borderRadius: 5}} src="/screenshots/21.png" fluid={true} />
-          <br />
-          </div>
-          <br />
-          <div style={{textAlign: 'center'}}>
-            <Image style={{borderRadius: 5}} src="/screenshots/22.png" fluid={true} />
-          <br />
-          </div>
-          <br />
-          <div style={{textAlign: 'center'}}>
-            <Image style={{borderRadius: 5}} src="/screenshots/23.png" fluid={true} />
-          <br />
-          </div>
-          <br />
-          <div style={{textAlign: 'center'}}>
-            <Image style={{borderRadius: 5}} src="/screenshots/24.png" fluid={true} />
-          <br />
-          </div>
-          <br />
-          <div style={{textAlign: 'center'}}>
-            <Image style={{borderRadius: 5}} src="/screenshots/25.png" fluid={true} />
-          <br />
-          </div>
+  
 
           <br />
         </div>
