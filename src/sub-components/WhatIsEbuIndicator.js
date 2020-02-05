@@ -1,6 +1,6 @@
 import React from 'react';
 import { Divider } from 'semantic-ui-react';
-import { Image } from 'react-bootstrap';
+import { Image, ResponsiveEmbed } from 'react-bootstrap';
 
 export default function WhatIsEbuIndicator(){
   return(
@@ -10,6 +10,12 @@ export default function WhatIsEbuIndicator(){
     <div className="card" id="what-is">
 
       <div className="card-body">
+        <div>
+          <ResponsiveEmbed aspectRatio="16by9" style={{borderRadius: 5}}>
+            <embed type="video/mp4" src="https://www.youtube.com/embed/tsJe9OswYfM?rel=0" />
+          </ResponsiveEmbed>
+        </div>
+        <br />
         <b>EBU Indicator</b> is a script that finds the most powerful patterns on Finance Charts like <b>Forex</b>, <b>Stock Markets</b>, <b>CryptoCurrencies</b>, <b>Warrants</b>, <b>Commodities</b>, etc.
         <br /><br /> <b>EBU Indicator,</b> helps you understand what is going on within the market. <b>Are there any patterns in the charts?</b> <b>Where should I take a long or short position?</b> <b>EBU Indicator</b> helps you answer these questions, so you can make decisions that will result in profit. <b>EBU Indicator</b> is a powerful tool for technical analysis because it brings <u><b>time and money to your trade.</b></u><br /><br /> <b>With EBU Indicator</b> you can <u><b>catch big breakouts</b></u> in price action, so, you have <u><b>big opportinites</b> to make <b>big profits.</b></u><br />
         <br />
