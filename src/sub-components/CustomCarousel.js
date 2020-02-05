@@ -16,19 +16,19 @@ function populateCarousel(){
     )
   }
   arr.push(
-    <Carousel.Item key={22}>
+    <Carousel.Item key={16}>
       <img
         className="d-block w-100"
-        src="screenshots/22.png"
+        src="screenshots/16.png"
         alt="First slide"
       />
     </Carousel.Item>
   )
   arr.push(
-    <Carousel.Item key={24}>
+    <Carousel.Item key={14}>
       <img
         className="d-block w-100"
-        src="screenshots/24.png"
+        src="screenshots/17.png"
         alt="First slide"
       />
     </Carousel.Item>
