@@ -45,7 +45,7 @@ export default function CustomCarousel() {
     <br />
     <div className="card">
       <div className="card-body">
-        To see more detailed screenshots, please click <b><Link to="/screenshots">here.</Link></b>
+        To see more detailed screenshots, please click <b><Link to="/screenshots">here.</Link> Also everyday we share up-to-date ideas(screenshots from the indicator) on TradingView.<a href="https://www.tradingview.com/u/EbuInvest/" target="_blank" rel="noopener noreferrer"> Join us on TradingView.</a></b>
       </div>
     </div>
     </>

@@ -30,7 +30,7 @@ export default class AboutUs extends React.Component {
                 <br />
                 Software Engineer | Trader
                 <br />
-                Favorite Investment Tool: <b>Warrant</b>
+                Favorite Investment Tool: <b>Warrants(Options)</b>
                 <br />
                 <span className="text-muted">New York, US</span>
                 <br /><br />
@@ -48,7 +48,7 @@ export default class AboutUs extends React.Component {
                 <br />
                 Translator | Student | Trader
                 <br />
-                Favorite Investment Tool: <b>Warrant</b>
+                Favorite Investment Tool: <b>Warrants(Options)</b>
                 <br />
                 <span className="text-muted">Istanbul, Turkey</span>
                 <br /><br />
