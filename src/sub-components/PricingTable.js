@@ -46,7 +46,7 @@ class PricingTable extends React.Component {
               <div className="card mb-5 mb-lg-0">
                 <div className="card-body">
                   <h5 className="card-title text-muted text-uppercase text-center">Monthly Subscription</h5>
-                  <h6 className="card-price text-center">$54.99<span className="period">/month</span></h6>
+                  <h6 className="card-price text-center">$49.99<span className="period">/month</span></h6>
                   <h6 className="card-title text-muted text-uppercase text-center"><strike>$59.99</strike><span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
@@ -69,7 +69,7 @@ class PricingTable extends React.Component {
               <div className="card mb-5 mb-lg-0">
                 <div className="card-body">
                   <h5 className="card-title text-muted text-uppercase text-center">3 monthly subscription</h5>
-                  <h6 className="card-price text-center">$49.99<span className="period">/month</span></h6>
+                  <h6 className="card-price text-center">$44.99<span className="period">/month</span></h6>
                   <h6 className="card-title text-muted text-uppercase text-center"><strike>$54.99</strike><span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
@@ -92,7 +92,7 @@ class PricingTable extends React.Component {
               <div className="card">
                 <div className="card-body">
                   <h5 className="card-title text-muted text-uppercase text-center">Yearly Subscription</h5>
-                  <h6 className="card-price text-center">$39.99<span className="period">/month</span></h6>
+                  <h6 className="card-price text-center">$34.99<span className="period">/month</span></h6>
                   <h6 className="card-title text-muted text-uppercase text-center"><strike>$44.99</strike><span className="period">/month</span></h6>
                   <hr />
                   <ul className="fa-ul">
@@ -116,7 +116,7 @@ class PricingTable extends React.Component {
 
       <Modal centered show={this.state.modalMonthly} onHide={() => this.setState({modalMonthly: false})}>
         <Modal.Header closeButton>
-          <h5><b>EBU Indicator - Monthly Plan - $54.99/month</b></h5>
+          <h5><b>EBU Indicator - Monthly Plan - $49.99/month</b></h5>
         </Modal.Header>
         <Modal.Body>
           <div>
@@ -136,7 +136,7 @@ class PricingTable extends React.Component {
 
       <Modal centered show={this.state.modal3Monthly} onHide={() => this.setState({modal3Monthly: false})}>
         <Modal.Header closeButton>
-          <h5><b>EBU Indicator - 3 Monthly Plan - $49.99/month</b></h5>
+          <h5><b>EBU Indicator - 3 Monthly Plan - $44.99/month</b></h5>
         </Modal.Header>
         <Modal.Body>
           <div>
@@ -156,7 +156,7 @@ class PricingTable extends React.Component {
 
       <Modal centered show={this.state.modalYearly} onHide={() => this.setState({modalYearly: false})}>
         <Modal.Header closeButton>
-          <h5><b>EBU Indicator - Yearly Plan - $39.99/month</b></h5>
+          <h5><b>EBU Indicator - Yearly Plan - $34.99/month</b></h5>
         </Modal.Header>
         <Modal.Body>
           <div>
