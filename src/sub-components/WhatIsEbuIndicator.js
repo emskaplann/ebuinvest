@@ -29,7 +29,8 @@ export default function WhatIsEbuIndicator(){
         <li><a href="https://www.investopedia.com/terms/h/head-shoulders.asp" target="_blank" rel="noopener noreferrer"><b>Head & Shoulders Pattern</b></a></li>
         <li><a href="https://bestbinarytradingbrokers.com/education-and-strategies/contracting-triangles/" target="_blank" rel="noopener noreferrer"><b>Contracting Triangle Pattern</b></a></li>
       </ul>
-      <b>Everyday we share up-to-date ideas(screenshots from the indicator) on TradingView.<a href="https://www.tradingview.com/u/EbuInvest/" target="_blank" rel="noopener noreferrer"> Join us on TradingView.</a></b>
+      <b>Everyday we share up-to-date ideas(screenshots from the indicator) on TradingView.<a href="https://www.tradingview.com/u/EbuInvest/" target="_blank" rel="noopener noreferrer"> Join us on TradingView.</a></b><br />
+      <b>Also, you can see our Indicator on TradingView from <a href="https://www.tradingview.com/script/FvncapoU-EBU-Indicator/" target="_blank" rel="noopener noreferrer">here.</a> In order to see(use) on your chart you need to start your free trial. See our pricing in the below section.</b>
       <br /><br />
         The techniques(patterns) we are using are no secrets. The only secret is finding them <b>automatically.</b> Before this script we were finding patterns manually and let us assure you this isn't something you'd want to be dealing with. This is the main reason why we wrote the script.
       <br /><br />
