@@ -12,7 +12,7 @@ export default function WhatIsEbuIndicator(){
       <div className="card-body">
         <div>
           <ResponsiveEmbed aspectRatio="16by9" style={{borderRadius: 5}}>
-            <embed type="video/mp4" src="https://www.youtube.com/embed/tsJe9OswYfM?rel=0" />
+            <embed src="https://www.youtube.com/embed/tsJe9OswYfM?rel=0" />
           </ResponsiveEmbed>
         </div>
         <br />
