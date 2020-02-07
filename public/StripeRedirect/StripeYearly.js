@@ -3,7 +3,7 @@ var stripe = Stripe('pk_live_Y4ZpMfxp2w8fDkilkdQJsJvT00s1VJ4euh');
 stripe.redirectToCheckout({
   items: [{
     // Replace with the ID of your plan
-    plan: 'plan_GdMG6ON3woJjPm',
+    plan: 'plan_Ggi4qwETQrbWsm',
     quantity: 1,
   }],
   successUrl: 'https://ebuinvest.com/#/subscription-successful',

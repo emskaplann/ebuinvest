@@ -56,8 +56,6 @@ class PricingTable extends React.Component {
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Gartley Patterns</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle Patterns</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Head & Shoulders Patterns</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>The Way Line Indicator</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Telegram Group with All Users</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>1/1 Support</li>
                   </ul>
                     <button className="btn btn-block btn-primary text-uppercase" onClick={() => this.setState({modalMonthly: true})}>Try Free</button>
@@ -79,8 +77,6 @@ class PricingTable extends React.Component {
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Gartley Patterns</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle Patterns</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Head & Shoulders Patterns</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>The Way Line Indicator</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Telegram Group with All Users</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>1/1 Support</li>
                   </ul>
                   <button className="btn btn-block btn-primary text-uppercase" onClick={() => this.setState({modal3Monthly: true})}>Try Free</button>
@@ -102,8 +98,6 @@ class PricingTable extends React.Component {
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Gartley Patterns</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Contracting Triangle Patterns</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Head & Shoulders Patterns</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>The Way Line Indicator</li>
-                    <li><span className="fa-li"><i className="fas fa-check"></i></span>Telegram Group with All Users</li>
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>1/1 Support</li>
                   </ul>
                   <button className="btn btn-block btn-primary text-uppercase" onClick={() => this.setState({modalYearly: true})}>Try Free</button>
