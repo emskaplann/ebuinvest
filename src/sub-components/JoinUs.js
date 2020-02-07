@@ -24,7 +24,7 @@ export default function JoinUs(){
             </Row>
             <br />
             <Row style={{justifyContent: 'center'}}>
-              <b><a href="https://www.tradingview.com/u/EbuInvest/" target="_blank" rel="noopener noreferrer">Join us on TradingView.</a></b>
+              <h5><b><a href="https://www.tradingview.com/u/EbuInvest/" target="_blank" rel="noopener noreferrer">Join us on TradingView.</a> Don't miss money.</b></h5>
             </Row>
         </div>
       </div>
