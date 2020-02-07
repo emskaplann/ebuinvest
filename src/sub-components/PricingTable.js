@@ -1,7 +1,7 @@
 import React from 'react';
 import { Divider } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
-import { Modal, Row } from 'react-bootstrap';
+import { Modal } from 'react-bootstrap';
 import loadjs from 'loadjs';
 
 class PricingTable extends React.Component {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 import { Divider } from 'semantic-ui-react';
 
 export default function JoinUs(){

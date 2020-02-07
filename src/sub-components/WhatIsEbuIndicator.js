@@ -1,6 +1,6 @@
 import React from 'react';
 import { Divider } from 'semantic-ui-react';
-import { Image, ResponsiveEmbed } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import YouTube from 'react-youtube-embed';
 
 export default function WhatIsEbuIndicator(){
