@@ -42,9 +42,6 @@ export default class NavbarView extends React.Component {
                 </Nav.Link>
               </Row>
             </Nav>
-            <Nav>
-              <Link className="nav-link" to="/become-an-affiliate" style={{textDecoration: 'none'}}>Become an Affiliate</Link>
-            </Nav>
           </Navbar.Collapse>
         </Navbar>
       </>
