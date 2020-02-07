@@ -1,6 +1,7 @@
 import React from 'react';
 import { Divider } from 'semantic-ui-react';
 import { Image, ResponsiveEmbed } from 'react-bootstrap';
+import YouTube from 'react-youtube-embed';
 
 export default function WhatIsEbuIndicator(){
   return(
@@ -11,9 +12,7 @@ export default function WhatIsEbuIndicator(){
 
       <div className="card-body">
         <div>
-          <ResponsiveEmbed aspectRatio="16by9" style={{borderRadius: 5}}>
-            <embed src="https://www.youtube.com/embed/tsJe9OswYfM?rel=0" />
-          </ResponsiveEmbed>
+          <YouTube id='tsJe9OswYfM' appendSrc="?rel=0" />
         </div>
         <br />
         <b>EBU Indicator</b> is a script that finds the most powerful patterns on Finance Charts like <b>Forex</b>, <b>Stock Markets</b>, <b>CryptoCurrencies</b>, <b>Warrants</b>, <b>Commodities</b>, etc.

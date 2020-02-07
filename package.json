@@ -24,6 +24,7 @@
     "react-router-sitemap": "^1.2.0",
     "react-scripts": "3.3.0",
     "react-scroll-up-button": "^1.6.4",
+    "react-youtube-embed": "^1.0.3",
     "redux": "^4.0.5",
     "semantic-ui-react": "^0.88.2",
     "video-react": "^0.14.1"
