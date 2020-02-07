@@ -2,6 +2,7 @@ import React from 'react';
 import { Divider } from 'semantic-ui-react';
 import { Image } from 'react-bootstrap';
 import YouTube from 'react-youtube-embed';
+import { Link } from 'react-router-dom';
 
 export default function WhatIsEbuIndicator(){
   return(
@@ -15,7 +16,7 @@ export default function WhatIsEbuIndicator(){
           <YouTube id='tsJe9OswYfM' appendSrc="?rel=0" />
         </div>
         <br />
-        <b>EBU Indicator</b> is a script that finds the most powerful patterns on Finance Charts like <b>Forex</b>, <b>Stock Markets</b>, <b>CryptoCurrencies</b>, <b>Warrants</b>, <b>Commodities</b>, etc.
+        <b>EBU Indicator</b> is a script that finds the most powerful patterns on Finance Charts like <b>Forex</b>, <b>Stock Markets</b>, <b>CryptoCurrencies</b>, <b>Options</b>, <b>Commodities</b>, etc.
         <br /><br /> <b>EBU Indicator,</b> helps you understand what is going on within the market. <b>Are there any patterns in the charts?</b> <b>Where should I take a long or short position?</b> <b>EBU Indicator</b> helps you answer these questions, so you can make decisions that will result in profit. <b>EBU Indicator</b> is a powerful tool for technical analysis because it brings <u><b>time and money to your trade.</b></u><br /><br /> <b>With EBU Indicator</b> you can <u><b>catch big breakouts</b></u> in price action, so, you have <u><b>big opportinites</b> to make <b>big profits.</b></u><br />
       <br /> We wrote the script with <b><a href="https://www.tradingview.com/blog/en/introducing-pine-script-4-12626/" target="_blank" rel="noopener noreferrer">Pine Script v4</a></b> and it's only usable on <b><a href="https://www.tradingview.com/" target="_blank" rel="noopener noreferrer">TradingView Platform.</a></b><br /><br />
         In the script, we are using the <b><a href="https://www.investopedia.com/ask/answers/030415/what-zig-zag-indicator-formula-and-how-it-calculated.asp" target="_blank" rel="noopener noreferrer">ZigZag</a></b> and <b><a href="https://www.investopedia.com/ask/answers/05/fibonacciretracement.asp" target="_blank" rel="noopener noreferrer">Fibonacci</a></b> levels for recognizing patterns. The script checks all <u>pivot highs and pivot lows with Fibonacci numbers.</u> Additionally, we know people wonder if it works on different trading strategies. And the <b>answer is yes,</b> our script <u>works without a problem with all kinds of strategies like <b>Day Trading, Swing Trading, etc.</b></u><br /><br />
@@ -33,6 +34,8 @@ export default function WhatIsEbuIndicator(){
       <br /><br />
         The techniques(patterns) we are using are no secrets. The only secret is finding them <b>automatically.</b> Before this script we were finding patterns manually and let us assure you this isn't something you'd want to be dealing with. This is the main reason why we wrote the script.
       <br /><br />
+      <h5><b>More questions? See our <Link to="/faq">FAQ.</Link></b></h5>
+      <br />
         <div className="text-muted"><b><u>Note: EBU Indicator is not recommended for beginners.</u></b></div>
       <br />
       </div>

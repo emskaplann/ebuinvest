@@ -36,7 +36,7 @@ export default class ContactForm extends React.Component{
 
             <h5><b>4. What happens after I subscribe with PayPal or Stripe(Credit/Debit)?</b></h5>
               <div style={{marginTop: 10}}>
-                After you complete the PayPal or Stripe process, we will send you an automated e-mail. And this e-mail will contain a link to a form. You need to fill that form out. In order to fill that form out you need to have a <b><u>TradingView Account.</u></b>
+                After you complete the PayPal or Stripe process, we will send you an automated email. And this email will contain a link to a form. You need to fill that form out. In order to fill that form out you need to have a <b><u>TradingView Account.</u></b>
               <span> </span>After that we'll send you an invitation on TradingView, in the meantime you can checkout our <Link to="/how-to"><b>guides.</b></Link>
               </div><br /><br />
 
@@ -93,7 +93,7 @@ export default class ContactForm extends React.Component{
             <h5><b>13. Do you guys share the Source Code after Subscription?</b></h5>
               <div style={{marginTop: 10}}>
                 <b>No,</b> we do not. However, we would love to help you on your problems about <b><u>PineScript.</u></b> We know that there are not enough sources to go around. So, we are willing to help you with <b><u>PineScript. </u></b>
-                You can either join our totally free Telegram Group or you could just send an e-mail to us. To see both options go <Link to="/reach-us"><b>here.</b></Link>
+                You can either join our totally free Telegram Group or you could just send an email to us. To see both options go <Link to="/reach-us"><b>here.</b></Link>
               </div><br /><br />
 
           <span onClick={this.props.history.goBack}><b>{"< Go back "}</b></span>| <Link to="/" style={{textDecoration: 'none', color: "black"}}><b>{"< Go to Main Page"}</b></Link>
