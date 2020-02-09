@@ -47,7 +47,7 @@ class PricingTable extends React.Component {
                 <div className="card-body">
                   <h5 className="card-title text-muted text-uppercase text-center">Monthly Subscription</h5>
                   <h6 className="card-price text-center">$24.99<span className="period">/month</span></h6>
-                  <h6 className="card-title text-muted text-uppercase text-center"><strike>$49.99</strike><span className="period">/month</span></h6>
+                  <h6 className="card-title text-uppercase text-center"><span className="text-muted"><strike>$49.99</strike></span><span className="period text-muted">/month</span> save 50%</h6>
                   <hr />
                   <ul className="fa-ul">
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Alerts(Notifications)</li>
@@ -68,7 +68,7 @@ class PricingTable extends React.Component {
                 <div className="card-body">
                   <h5 className="card-title text-muted text-uppercase text-center">3 monthly subscription</h5>
                   <h6 className="card-price text-center">$19.99<span className="period">/month</span></h6>
-                  <h6 className="card-title text-muted text-uppercase text-center"><strike>$39.99</strike><span className="period">/month</span></h6>
+                    <h6 className="card-title text-uppercase text-center"><span className="text-muted"><strike>$49.99</strike></span><span className="period text-muted">/month</span> save 60%</h6>
                   <hr />
                   <ul className="fa-ul">
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Alerts(Notifications)</li>
@@ -89,7 +89,7 @@ class PricingTable extends React.Component {
                 <div className="card-body">
                   <h5 className="card-title text-muted text-uppercase text-center">Yearly Subscription</h5>
                   <h6 className="card-price text-center">$9.99<span className="period">/month</span></h6>
-                  <h6 className="card-title text-muted text-uppercase text-center"><strike>$19.99</strike><span className="period">/month</span></h6>
+                  <h6 className="card-title text-uppercase text-center"><span className="text-muted"><strike>$49.99</strike></span><span className="text-muted period">/month</span> save 80%</h6>
                   <hr />
                   <ul className="fa-ul">
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Alerts(Notifications)</li>
