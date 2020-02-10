@@ -29,19 +29,16 @@ export default class HowTo extends React.Component {
             Our setup and action guide is in the same guide. Please click <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@snmzbrby/ebu-indicator-guide-b9bfe60916a3"><b>here</b></a> to see the guide.
             <br /><br />
 
-            <h4><b>3. How to get motivated?</b></h4>
-            Right now we are creating a playlist for motivation. We still don't have any good source to share right now but we'll update here ASAP.<br />
-            <span className="text-muted"><b>Note:</b> We don't create or make these videos, it's just sources we found helpful.</span>
-            <br /><br />
-
-            <h4><b>4. How to learn basics about finance, stock markets, forex?</b></h4>
-            Right now we are creating a playlist for education series. We still don't have any good source to share right now but we'll update here ASAP.<br />
-            <span className="text-muted"><b>Note:</b> We don't create or make these videos, it's just sources we found helpful.</span>
-            <br /><br />
+            <h4><b>3. How to Make Profit with EBU Indicator?</b></h4>
+            There is a slideshow below, besides the stories we publish on Medium. But I would highly recommend you to see these Profit Scenarios that happened with <b>EBU Indicator.</b>
+            <br />
+            <ol>
+              <li><a href="https://medium.com/@snmzbrby/ebu-indicator-profit-scenarios-1-tsla-bdf4e2fcd897" target="_blank" rel="noopener noreferrer"><b>EBU Indicator Profit Scenarios - TSLA</b></a></li>
+              <li><b>On the way...</b></li>
+            </ol>
             <div className='embed-container embed-responsive embed-responsive-4by3'>
               <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTNYOSfdxKZZLqUYC1rPIMnEN_G3ENjfdRsOZNYAJs4CF5PtCIjdGgKnFptAIB19oly4rtiYA4kXWlc/embed?start=false&loop=false&delayms=5000" className="google-slides-container" frameBorder="0" width="960" height="569" allowFullScreen={true} mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             </div>
-            <br />
             <span onClick={this.props.history.goBack}><b>{"< Go back "}</b></span>| <Link to="/" style={{textDecoration: 'none', color: "black"}}><b>{"< Go to Main Page"}</b></Link>
           </div>
         </div>
