@@ -37,7 +37,7 @@ export default class HowTo extends React.Component {
               <li><b>On the way...</b></li>
             </ol>
             <div className='embed-container embed-responsive embed-responsive-4by3'>
-              <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTNYOSfdxKZZLqUYC1rPIMnEN_G3ENjfdRsOZNYAJs4CF5PtCIjdGgKnFptAIB19oly4rtiYA4kXWlc/embed?start=false&loop=false&delayms=5000" className="google-slides-container" frameBorder="0" width="960" height="569" allowFullScreen={true} mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+              <iframe title="EBU INVEST | How to Make Profit with EBU Indicator?" src="https://docs.google.com/presentation/d/e/2PACX-1vTNYOSfdxKZZLqUYC1rPIMnEN_G3ENjfdRsOZNYAJs4CF5PtCIjdGgKnFptAIB19oly4rtiYA4kXWlc/embed?start=false&loop=false&delayms=5000" className="google-slides-container" frameBorder="0" width="960" height="569" allowFullScreen={true} mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             </div>
             <span onClick={this.props.history.goBack}><b>{"< Go back "}</b></span>| <Link to="/" style={{textDecoration: 'none', color: "black"}}><b>{"< Go to Main Page"}</b></Link>
           </div>
