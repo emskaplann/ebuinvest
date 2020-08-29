@@ -48,7 +48,7 @@ export default class ContactForm extends React.Component{
             <h5><b>6. How can I unsubscribe?</b></h5>
               <div style={{marginTop: 10}}>
                 <h6><b>PayPal Subscriptions</b></h6>
-                You can simply get all the information you need from PayPal. Please click <a href="paypal.com/us/smarthelp/article/how-do-i-cancel-a-billing-agreement,-automatic-recurring-payment-or-subscription-on-paypal-faq2254" target="_blank" rel="noopener noreferrer"><b>here.</b></a>
+                You can simply get all the information you need from PayPal. Please click <a href="https://paypal.com/us/smarthelp/article/how-do-i-cancel-a-billing-agreement,-automatic-recurring-payment-or-subscription-on-paypal-faq2254" target="_blank" rel="noopener noreferrer"><b>here.</b></a>
                 <br />
                 <span className="text-muted"><b><u>Note: This is an PayPal issue but if you don't cancel your subscription 1 day before the payment due, it is most likely the transaction will occur. In this case, you just need to contact us so we can refund your payment. We don't have a refund policy but if you simply ask us, we will get it done.</u></b></span>
                 <br /><br />
