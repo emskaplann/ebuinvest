@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { SocialIcon } from 'react-social-icons';
+import TVOilAd from '../sub-components/TVOilAd';
 
 
 
@@ -15,7 +16,8 @@ export default class AboutUs extends React.Component {
     return(
       <>
       <Container style={{marginTop: 20}}>
-        <Image src="/tgeyes.png" fluid={true} style={{borderRadius: 5}} />
+        <Image src="/tgeyes.png" fluid={true} style={{borderRadius: 5}} /><br /><br />
+        <TVOilAd />
         <br /><br />
         <div className="card">
           <div className="card-body">

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import TVFBAd from '../sub-components/TVFBAd';
 
 
 
@@ -42,6 +43,9 @@ export default class HowTo extends React.Component {
             <span onClick={this.props.history.goBack}><b>{"< Go back "}</b></span>| <Link to="/" style={{textDecoration: 'none', color: "black"}}><b>{"< Go to Main Page"}</b></Link>
           </div>
         </div>
+        <br />
+        <TVFBAd />
+        <br />
         <br />
       </Container>
       </>

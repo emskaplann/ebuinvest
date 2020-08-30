@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import JoinUs from '../sub-components/JoinUs.js';
+import TVOilAd from './TVOilAd.js';
 
 export default class ContactForm extends React.Component{
 
@@ -38,6 +39,9 @@ export default class ContactForm extends React.Component{
             </div>
           </form>
           </div>
+          <br />
+          <TVOilAd />
+          <br />
           <JoinUs />
           <br />
           <Image src="/tgroar.jpeg" fluid={true} style={{borderRadius: 5}} />

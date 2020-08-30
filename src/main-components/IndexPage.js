@@ -6,6 +6,8 @@ import CustomCarousel from '../sub-components/CustomCarousel.js';
 import WhatIsEbuIndicator from '../sub-components/WhatIsEbuIndicator.js';
 import PaymentFlow from '../sub-components/PaymentFlow.js';
 import JoinUs from '../sub-components/JoinUs.js';
+import TVOilAd from '../sub-components/TVOilAd.js';
+import TVFBAd from '../sub-components/TVFBAd.js';
 
 class IndexPage extends React.Component {
   constructor(){
@@ -26,17 +28,19 @@ class IndexPage extends React.Component {
             <br />
               <WhatIsEbuIndicator />
             <br />
+              <TVOilAd />
+            <br />
               <JoinUs />
             <br />
             <Divider style={{color: 'white'}} horizontal>Screenshots from ebu indicator</Divider>
             <CustomCarousel />
           </Container>
           <PricingTable />
-          <Container style={{marginBottom: 150}}>
+          <Container style={{marginBottom: 25}}>
             <PaymentFlow />
+            <br />
+            <TVFBAd />
           </Container>
-          <br />
-          <br />
         </>
     );
   }

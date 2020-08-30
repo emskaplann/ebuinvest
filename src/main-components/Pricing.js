@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Image } from 'react-bootstrap';
 import PricingTable from '../sub-components/PricingTable.js';
 import PaymentFlow from '../sub-components/PaymentFlow.js';
+import TVOilAd from '../sub-components/TVOilAd.js';
 
 export default class Pricing extends React.Component {
 
@@ -19,6 +20,7 @@ export default class Pricing extends React.Component {
         </Container>
         <PricingTable />
         <Container>
+          <TVOilAd />
           <PaymentFlow />
           <br />
           <br />

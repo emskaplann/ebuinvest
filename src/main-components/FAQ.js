@@ -2,6 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Image } from 'react-bootstrap';
+import TVOilAd from '../sub-components/TVOilAd';
 
 
 export default class ContactForm extends React.Component{
@@ -32,8 +33,14 @@ export default class ContactForm extends React.Component{
             <h5><b>3. What is it about tigers?</b></h5>
               <div style={{marginTop: 10}}>
                 <b>We love everything about tigers.</b> The most important thing to know about them as a trader is that <u>every tiger is <b>unique</b> in a lot of way.</u> Point is, in trading to make money you always need to think and act different. Also you need to be agile, patient and awake. To see amazing facts about tigers visit <a href="http://www.animalplanet.com/wild-animals/tigerpedia/tiger-facts-prove-big-cats-amazing/" rel="noopener noreferrer" target="_blank"><b>here.</b></a> <u>We also donate <b>5%</b> of the income we make from here to tigers in the wild.</u> So far, we adopted one tiger. You can see details about the tiger on <a href="https://gifts.worldwildlife.org/gift-center/onlinepremiums/onlinecertificate.aspx?bvin=a034e709-29bf-45c6-a186-6145c23dda99" rel="noopener noreferrer" target="_blank"><b>here</b></a>.
-              </div><br /><br />
-
+              </div><br />
+              </div>
+            </div>
+            <br />
+            <TVOilAd />
+            <br /><br />
+            <div className="card">
+              <div className="card-body">
             <h5><b>4. What happens after I subscribe with PayPal or Stripe(Credit/Debit)?</b></h5>
               <div style={{marginTop: 10}}>
                 After you complete the PayPal or Stripe process, we will send you an automated email. And this email will contain a link to a form. You need to fill that form out. In order to fill that form out you need to have a <b><u>TradingView Account.</u></b>

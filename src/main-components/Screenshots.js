@@ -3,6 +3,7 @@ import { Container, Row, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Divider } from 'semantic-ui-react';
 import $ from 'jquery';
+import TVOilAd from '../sub-components/TVOilAd.js';
 
 
 // Wolfe => 1 4 9 10 12 13 16 17 18
@@ -50,7 +51,8 @@ export default class Screenshots extends React.Component {
     return(
       <>
       <Container style={{marginTop: 20}}>
-        <Image src="/tgeyes.png" fluid={true} style={{borderRadius: 5}} />
+        <Image src="/tgeyes.png" fluid={true} style={{borderRadius: 5}} /><br /><br />
+        <TVOilAd />
         <br /><br />
         <div className="card">
           <div className="card-body">
